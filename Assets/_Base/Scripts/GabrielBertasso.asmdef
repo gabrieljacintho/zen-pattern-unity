@@ -1,0 +1,28 @@
+{
+    "name": "GabrielBertasso",
+    "rootNamespace": "GabrielBertasso",
+    "references": [
+        "GUID:0c752da273b17c547ae705acf0f2adf2",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:d60799ab2a985554ea1a39cd38695018",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:598750ec792e4472396f5fbc092caa65",
+        "GUID:29492541a59d04a81b47a7f225e8a22d",
+        "GUID:87264ae76e36244ae9adf5b5fbf7ca19",
+        "GUID:14165214884ae4a619bfb290f28194a7",
+        "GUID:bdc6cbfe99a12124bacf829eec922e87",
+        "GUID:6d4810c931e638d489b58e9b332f3fb9",
+        "GUID:f7cf15099d31a18499ea8e6d870a6631",
+        "GUID:c2412819b3cf06943ad9470d1750b079",
+        "GUID:b2fa4b0e5029613449ce0244aa77fd92"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

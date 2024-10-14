@@ -1,0 +1,1923 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: AGameBy
+      TermType: 0
+      Description: Game credits.
+      Languages:
+      - A game by
+      - "\u6E38\u620F\u521B\u4F5C\u8005"
+      - "\u0418\u0433\u0440\u0430 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0430"
+      - Un juego de
+      - Um jogo de
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: BackToMainMenu
+      TermType: 0
+      Description: 
+      Languages:
+      - Back to main menu
+      - "\u8FD4\u56DE\u4E3B\u83DC\u5355"
+      - "\u041E\u0431\u0440\u0430\u0442\u043D\u043E \u043A \u0433\u043B\u0430\u0432\u043D\u043E\u043C\u0443
+        \u043C\u0435\u043D\u044E"
+      - "Volver al men\xFA principal"
+      - Voltar ao menu principal
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: BetaWarning
+      TermType: 0
+      Description: 
+      Languages:
+      - This is a beta version of Deadly Rain game for playtest, in case of bugs
+        or performance issues, please report them in the feedback form (link in main
+        menu). Please do not share game screenshots or videos.
+      - "\u8FD9\u662F\u300ADeadly Rain\u300B\u6E38\u620F\u7684\u6D4B\u8BD5\u7248\u672C\uFF0C\u5982\u679C\u51FA\u73B0\u9519\u8BEF\u6216\u6027\u80FD\u95EE\u9898\uFF0C\u8BF7\u5728\u53CD\u9988\u8868\u4E2D\u62A5\u544A\uFF08\u4E3B\u83DC\u5355\u4E2D\u7684\u94FE\u63A5\uFF09\u3002\u8BF7\u4E0D\u8981\u5206\u4EAB\u6E38\u620F\u622A\u56FE\u6216\u89C6\u9891\u3002"
+      - "\u042D\u0442\u043E \u0431\u0435\u0442\u0430-\u0432\u0435\u0440\u0441\u0438\u044F
+        \u0438\u0433\u0440\u044B Deadly Rain \u0434\u043B\u044F \u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F.
+        \u0412 \u0441\u043B\u0443\u0447\u0430\u0435 \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0435\u043D\u0438\u044F
+        \u043E\u0448\u0438\u0431\u043E\u043A \u0438\u043B\u0438 \u043F\u0440\u043E\u0431\u043B\u0435\u043C
+        \u0441 \u0438\u0441\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435\u043C,
+        \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u0441\u043E\u043E\u0431\u0449\u0438\u0442\u0435
+        \u043E \u043D\u0438\u0445 \u0432 \u0444\u043E\u0440\u043C\u0435 \u043E\u0431\u0440\u0430\u0442\u043D\u043E\u0439
+        \u0441\u0432\u044F\u0437\u0438 (\u0441\u0441\u044B\u043B\u043A\u0430 \u0432
+        \u0433\u043B\u0430\u0432\u043D\u043E\u043C \u043C\u0435\u043D\u044E). \u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430,
+        \u043D\u0435 \u0434\u0435\u043B\u0438\u0442\u0435\u0441\u044C \u0441\u043A\u0440\u0438\u043D\u0448\u043E\u0442\u0430\u043C\u0438
+        \u0438\u0433\u0440\u044B \u0438\u043B\u0438 \u0432\u0438\u0434\u0435\u043E."
+      - "Esta es una versi\xF3n beta del juego Deadly Rain para pruebas, en caso
+        de errores o problemas de rendimiento, por favor inf\xF3rmanos en el formulario
+        de feedback (enlace en el men\xFA principal). Por favor, no compartas capturas
+        de pantalla ni v\xEDdeos del juego."
+      - "Esta \xE9 uma vers\xE3o beta do jogo Deadly Rain para teste, em caso de
+        bugs ou problemas de desempenho, informe-os no formul\xE1rio de feedback
+        (link no menu principal). Por favor, n\xE3o compartilhe capturas de tela
+        ou v\xEDdeos do jogo."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Break
+      TermType: 0
+      Description: Break something.
+      Languages:
+      - Break
+      - "\u6253\u7834"
+      - "\u0421\u043B\u043E\u043C\u0430\u0442\u044C"
+      - Romper
+      - Quebrar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Close
+      TermType: 0
+      Description: Close door.
+      Languages:
+      - Close
+      - "\u5173\u95ED"
+      - "\u0417\u0430\u043A\u0440\u044B\u0442\u044C"
+      - Cerrar
+      - Fechar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Continue
+      TermType: 0
+      Description: Continue game.
+      Languages:
+      - Continue
+      - "\u7EE7\u7EED"
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C"
+      - Continuar
+      - Continuar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ContinueGame
+      TermType: 0
+      Description: 
+      Languages:
+      - Continue Game
+      - "\u7EE7\u7EED\u6E38\u620F"
+      - "\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C \u0418\u0433\u0440\u0443"
+      - Continua El Juego
+      - Continuar Jogo
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Aim
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Aim
+      - "\u7784\u51C6"
+      - "\u0426\u0435\u043B\u0438\u0442\u044C\u0441\u044F"
+      - Apuntar
+      - Mirar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Back
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Back
+      - "\u8FD4\u56DE"
+      - "\u041D\u0430\u0437\u0430\u0434"
+      - "Atr\xE1s"
+      - Voltar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/CannotChange
+      TermType: 0
+      Description: 
+      Languages:
+      - (Cannot change)
+      - "(\u4E0D\u80FD\u53D8)"
+      - "(\u041D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u0438\u0437\u043C\u0435\u043D\u0438\u0442\u044C)"
+      - (No puede cambiar)
+      - "(N\xE3o pode mudar)"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/ChangeWeapon
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Change weapon
+      - "\u6362\u6B66\u5668"
+      - "\u0421\u043C\u0435\u043D\u0438\u0442\u044C \u043E\u0440\u0443\u0436\u0438\u0435"
+      - Cambiar de arma
+      - Mudar arma
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Confirm
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Confirm
+      - "\u786E\u8BA4"
+      - "\u041F\u043E\u0434\u0442\u0432\u0435\u0434\u0438\u0442\u044C"
+      - Confirmar
+      - Confirmar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/CrouchStandUp
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Crouch/stand up
+      - "\u8E72\u4E0B/\u7AD9\u8D77\u6765"
+      - "\u041F\u0440\u0438\u0441\u0435\u0441\u0442\u044C\\\u043F\u043E\u0434\u043D\u044F\u0442\u044C\u0441\u044F"
+      - Agacharse/levantarse
+      - Agachar/levantar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Fire
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Fire
+      - "\u5F00\u706B"
+      - "\u041E\u0433\u043E\u043D\u044C"
+      - Disparar
+      - Atirar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Heal
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Heal
+      - "\u6108\u5408"
+      - "\u0417\u0430\u043B\u0435\u0447\u0438\u0442\u044C"
+      - Curar
+      - Curar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Hold
+      TermType: 0
+      Description: Control mode.
+      Languages:
+      - Hold
+      - "\u6491\u4F4F"
+      - "\u0414\u0435\u0440\u0436\u0430\u0442\u044C"
+      - Mantener presionado
+      - Segure
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Interact
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Interact
+      - "\u4E92\u52A8"
+      - "\u0412\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C"
+      - Interactuar
+      - Interagir
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Jump
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Jump
+      - "\u8DF3"
+      - "\u041F\u0440\u044B\u0433\u043D\u0443\u0442\u044C"
+      - Saltar
+      - Pular
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/KeyboardMouse
+      TermType: 0
+      Description: 
+      Languages:
+      - Keyboard & Mouse
+      - "\u952E\u76D8\u548C\u9F20\u6807"
+      - "\u041A\u043B\u0430\u0432\u0438\u0430\u0442\u0443\u0440\u0430 \u0418 \u041C\u044B\u0448\u044C"
+      - "Teclado Y Rat\xF3n"
+      - Teclado e Mouse
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Look
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Look
+      - "\u770B"
+      - "\u041F\u043E\u0441\u043C\u043E\u0442\u0440\u0435\u0442\u044C"
+      - Mirar
+      - Olhar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Move
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Move
+      - "\u79FB\u52A8"
+      - "\u0414\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F"
+      - Moverse
+      - Mover
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/MoveBackward
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Move backward
+      - "\u5411\u540E\u79FB\u52A8"
+      - "\u0414\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F \u043D\u0430\u0437\u0430\u0434"
+      - Retroceder
+      - "Mover para tr\xE1s"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/MoveForward
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Move forward
+      - "\u524D\u8FDB"
+      - "\u0414\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F \u0432\u043F\u0435\u0440\u0435\u0434"
+      - Avanzar
+      - Mover para frente
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/MoveLeft
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Move left
+      - "\u5411\u5DE6\u79FB\u52A8"
+      - "\u0414\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F \u0432\u043B\u0435\u0432\u043E"
+      - Moverse a la izquierda
+      - Mover para a esquerda
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/MoveRight
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Move right
+      - "\u5411\u53F3\u79FB"
+      - "\u0414\u0432\u0438\u0433\u0430\u0442\u044C\u0441\u044F \u0432\u043F\u0440\u0430\u0432\u043E"
+      - Moverse a la derecha
+      - Mover para a direita
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Name
+      TermType: 0
+      Description: 
+      Languages:
+      - Name
+      - "\u59D3\u540D"
+      - "\u0418\u043C\u044F"
+      - Nombre
+      - Nome
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Pause
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Pause
+      - "\u6682\u505C"
+      - "\u041E\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C"
+      - Detenerse
+      - Pausar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/PickUp
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Pick up
+      - "\u6361\u8D77"
+      - "\u041F\u043E\u0434\u043E\u0431\u0440\u0430\u0442\u044C"
+      - Recoger
+      - Pegar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/PlayStationController
+      TermType: 0
+      Description: 
+      Languages:
+      - PlayStation Controller
+      - "PlayStation \u63A7\u5236\u5668"
+      - "\u041A\u043E\u043D\u0442\u0440\u043E\u043B\u043B\u0435\u0440 PlayStation"
+      - Controlador de PlayStation
+      - Controle de PlayStation
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Press
+      TermType: 0
+      Description: Control mode.
+      Languages:
+      - Press
+      - "\u6309\u4F4F"
+      - "\u041D\u0430\u0436\u0430\u0442\u044C"
+      - Pulsar
+      - Pressione
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/PrimaryWeapon
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Primary weapon
+      - "\u4E3B\u6B66\u5668"
+      - "\u041E\u0441\u043D\u043E\u0432\u043D\u043E\u0435 \u043E\u0440\u0443\u0436\u0438\u0435"
+      - Arma principal
+      - "Arma prim\xE1ria"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Reload
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Reload
+      - "\u91CD\u65B0\u52A0\u8F7D"
+      - "\u041F\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C"
+      - Recargar
+      - Recarregar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/ReloadInteract
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Reload/interact
+      - "\u91CD\u65B0\u52A0\u8F7D/\u4EA4\u4E92"
+      - "\u041F\u0435\u0440\u0435\u0437\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044C/\u0432\u0437\u0430\u0438\u043C\u043E\u0434\u0435\u0439\u0441\u0442\u0432\u043E\u0432\u0430\u0442\u044C"
+      - Recargar/interactuar
+      - Recarregar/interagir
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Run
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Run
+      - "\u8DD1\u6B65"
+      - "\u0411\u0435\u0436\u0430\u0442\u044C"
+      - Correr
+      - Correr
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/SecondaryWeapon
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Secondary weapon
+      - "\u526F\u6B66\u5668"
+      - "\u0412\u0442\u043E\u0440\u0438\u0447\u043D\u043E\u0435 \u043E\u0440\u0443\u0436\u0438\u0435"
+      - Arma secundaria
+      - "Arma secund\xE1ria"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Stab
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Stab
+      - "\u523A"
+      - "\u041F\u044B\u0440\u043D\u0443\u0442\u044C"
+      - "Pu\xF1alada"
+      - Facada
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Tap
+      TermType: 0
+      Description: 
+      Languages:
+      - Tap
+      - "\u8F7B\u6572"
+      - "\u041A\u0440\u0430\u043D"
+      - Grifo
+      - Tocar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/ThrowGrenade
+      TermType: 0
+      Description: Control description.
+      Languages:
+      - Throw grenade
+      - "\u6295\u63B7\u624B\u69B4\u5F39"
+      - "\u0411\u0440\u043E\u0441\u0438\u0442\u044C \u0413\u0440\u0430\u043D\u0430\u0442\u0443"
+      - Lanzar granada
+      - Arremessar granada
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/ThrowableWeapon
+      TermType: 0
+      Description: 
+      Languages:
+      - Throwable weapon
+      - "\u53EF\u6295\u63B7\u6B66\u5668"
+      - "\u041C\u0435\u0442\u0430\u0442\u0435\u043B\u044C\u043D\u043E\u0435 \u043E\u0440\u0443\u0436\u0438\u0435"
+      - arma arrojadiza
+      - "Arma arremess\xE1vel"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/ToggleFlashlight
+      TermType: 0
+      Description: 
+      Languages:
+      - Toggle Flashlight
+      - "\u5207\u6362\u624B\u7535\u7B52"
+      - "\u041F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u0424\u043E\u043D\u0430\u0440\u0438\u043A"
+      - Alternar Linterna
+      - Alternar Lanterna
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/ToggleNightVision
+      TermType: 0
+      Description: 
+      Languages:
+      - Toggle Night Vision
+      - "\u5207\u6362\u591C\u89C6"
+      - "\u041F\u0435\u0440\u0435\u043A\u043B\u044E\u0447\u0438\u0442\u044C \u041D\u043E\u0447\u043D\u043E\u0435
+        \u0412\u0438\u0434\u0435\u043D\u0438\u0435"
+      - "Alternar Visi\xF3n Nocturna"
+      - "Alternar Vis\xE3o Noturna"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/Unbound
+      TermType: 0
+      Description: 
+      Languages:
+      - Unbound
+      - "\u4E0D\u53D7\u7EA6\u675F\u7684"
+      - "\u041D\u0435\u0441\u0432\u044F\u0437\u0430\u043D\u043D\u044B\u0439"
+      - Sin Consolidar
+      - "N\xE3o Vinculado"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Controls/XboxController
+      TermType: 0
+      Description: 
+      Languages:
+      - Xbox Controller
+      - "Xbox\u63A7\u5236\u5668"
+      - "\u041A\u043E\u043D\u0442\u0440\u043E\u043B\u043B\u0435\u0440 Xbox"
+      - Controlador Xbox
+      - Controle de Xbox
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Copyright
+      TermType: 0
+      Description: 
+      Languages:
+      - "Copyright \xA9 2024 FireRing Studio. All rights reserved."
+      - "\u7248\u6743\u6240\u6709 \xA9 2024 FireRing Studio\u3002 \u7248\u6743\u6240\u6709\u3002"
+      - "Copyright \xA9 2024 FireRing Studio. \u0412\u0441\u0435 \u043F\u0440\u0430\u0432\u0430
+        \u0437\u0430\u0449\u0438\u0449\u0435\u043D\u044B."
+      - "Derechos de Autor \xA9 2024 FireRing Studio. Todos los derechos reservados."
+      - "Direitos autorais \xA9 2024 FireRing Studio. Todos os direitos reservados."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Credits
+      TermType: 0
+      Description: Game credits.
+      Languages:
+      - Credits
+      - "\u5236\u4F5C\u4EBA\u5458"
+      - "\u041A\u0440\u0435\u0434\u0438\u0442\u044B"
+      - "Cr\xE9ditos"
+      - "Cr\xE9ditos"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Difficulties/Easy
+      TermType: 0
+      Description: Game difficulty.
+      Languages:
+      - Easy
+      - "\u7B80\u5355"
+      - "\u041B\u0435\u0433\u043A\u0438\u0439"
+      - "F\xE1cil"
+      - "F\xE1cil"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Difficulties/Hard
+      TermType: 0
+      Description: Game difficulty.
+      Languages:
+      - Hard
+      - "\u56F0\u96BE"
+      - "\u0416\u0435\u0441\u0442\u043A\u0438\u0439"
+      - "Dif\xEDcil"
+      - "Dif\xEDcil"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Difficulties/Medium
+      TermType: 0
+      Description: Game difficulty.
+      Languages:
+      - Medium
+      - "\u4E2D\u7B49\u96BE\u5EA6"
+      - "\u0421\u0440\u0435\u0434\u043D\u0438\u0439"
+      - Normal
+      - "M\xE9dio"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Difficulties/VeryHard
+      TermType: 0
+      Description: Game difficulty.
+      Languages:
+      - Very hard
+      - "\u5F88\u96BE"
+      - "\u041E\u0447\u0435\u043D\u044C \u0441\u043B\u043E\u0436\u043D\u044B\u0439"
+      - "Muy dif\xEDcil"
+      - "Muito dif\xEDcil"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: DisplayModes/BorderlessWindowed
+      TermType: 0
+      Description: Display mode.
+      Languages:
+      - Borderless windowed
+      - "\u65E0\u8FB9\u6846\u7A97\u53E3\u5316"
+      - "\u0411\u0435\u0437 \u043F\u043E\u043B\u0435\u0439"
+      - Ventana sin bordes
+      - Janela sem bordas
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: DisplayModes/Fullscreen
+      TermType: 0
+      Description: Display mode.
+      Languages:
+      - Fullscreen
+      - "\u5168\u5C4F"
+      - "\u041F\u043E\u043B\u043D\u043E\u044D\u043A\u0440\u0430\u043D\u043D\u044B\u0439"
+      - Pantalla completa
+      - Tela Cheia
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: DisplayModes/Windowed
+      TermType: 0
+      Description: Display mode.
+      Languages:
+      - Windowed
+      - "\u6709\u7A97\u7684"
+      - "\u041E\u043A\u043E\u043D\u043D\u044B\u0439"
+      - Ventana
+      - Janela
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Documents/GuardTower
+      TermType: 0
+      Description: 
+      Languages:
+      - I shouldn't have taken this job. I saw a monstrous creature attacking and
+        sucking the blood of several animals in the region. And I realized that those
+        who didn't die ended up suffering mutations. I need to warn the farmers in
+        the region and get out of here soon.
+      - "\u6211\u4E0D\u5E94\u8BE5\u63A5\u53D7\u8FD9\u4EFD\u5DE5\u4F5C\u3002\u6211\u770B\u5230\u4E00\u4E2A\u53EF\u6015\u7684\u751F\u7269\u6B63\u5728\u653B\u51FB\u5E76\u5438\u98DF\u8BE5\u5730\u533A\u6570\u53EA\u52A8\u7269\u7684\u8840\u6DB2\u3002\u6211\u610F\u8BC6\u5230\u90A3\u4E9B\u6CA1\u6709\u6B7B\u7684\u4EBA\u6700\u7EC8\u4F1A\u906D\u53D7\u7A81\u53D8\u3002\u6211\u9700\u8981\u8B66\u544A\u8BE5\u5730\u533A\u7684\u519C\u6C11\uFF0C\u5C3D\u5FEB\u79BB\u5F00\u8FD9\u91CC\u3002"
+      - "\u041C\u043D\u0435 \u043D\u0435 \u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043B\u043E
+        \u0441\u043E\u0433\u043B\u0430\u0448\u0430\u0442\u044C\u0441\u044F \u043D\u0430
+        \u044D\u0442\u0443 \u0440\u0430\u0431\u043E\u0442\u0443. \u042F \u0432\u0438\u0434\u0435\u043B
+        \u0447\u0443\u0434\u043E\u0432\u0438\u0449\u043D\u043E\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E,
+        \u043D\u0430\u043F\u0430\u0434\u0430\u044E\u0449\u0435\u0435 \u0438 \u0432\u044B\u0441\u0430\u0441\u044B\u0432\u0430\u044E\u0449\u0435\u0435
+        \u043A\u0440\u043E\u0432\u044C \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u0438\u0445
+        \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445 \u0432 \u044D\u0442\u043E\u043C
+        \u0440\u0430\u0439\u043E\u043D\u0435. \u0418 \u044F \u043F\u043E\u043D\u044F\u043B,
+        \u0447\u0442\u043E \u0442\u0435, \u043A\u0442\u043E \u043D\u0435 \u0443\u043C\u0435\u0440,
+        \u0432 \u043A\u043E\u043D\u0435\u0447\u043D\u043E\u043C \u0438\u0442\u043E\u0433\u0435
+        \u0441\u0442\u0440\u0430\u0434\u0430\u044E\u0442 \u043E\u0442 \u043C\u0443\u0442\u0430\u0446\u0438\u0439.
+        \u041C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E \u043F\u0440\u0435\u0434\u0443\u043F\u0440\u0435\u0434\u0438\u0442\u044C
+        \u043C\u0435\u0441\u0442\u043D\u044B\u0445 \u0444\u0435\u0440\u043C\u0435\u0440\u043E\u0432
+        \u0438 \u043F\u043E\u0441\u043A\u043E\u0440\u0435\u0435 \u0443\u0439\u0442\u0438
+        \u043E\u0442\u0441\u044E\u0434\u0430."
+      - "No deber\xEDa haber aceptado este trabajo. Vi una criatura monstruosa atacando
+        y chupando la sangre de varios animales de la regi\xF3n. Y me di cuenta de
+        que los que no mor\xEDan acababan sufriendo mutaciones. Necesito advertir
+        a los agricultores de la regi\xF3n y salir de aqu\xED pronto."
+      - "N\xE3o devia ter aceito este trabalho. Vi uma criatura monstruosa atacando
+        e sugando o sangue de v\xE1rios animais da regi\xE3o. E percebi que aquelas
+        que n\xE3o morreram, acabaram sofrendo muta\xE7\xF5es. Preciso avisar os
+        fazendeiros da regi\xE3o e ir embora logo daqui."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Documents/OldSovietShop_01
+      TermType: 0
+      Description: 
+      Languages:
+      - To everyone who finds this letter, RUN AWAY! It is NOT safe here! Recently
+        I saw in the forest a dead animal get up after being attacked by an even
+        larger creature with thorns on its back.
+      - "\u5BF9\u4E8E\u6240\u6709\u627E\u5230\u8FD9\u5C01\u4FE1\u7684\u4EBA\uFF0C\u8BF7\u9003\u8DD1\uFF01\u8FD9\u91CC\u4E0D\u5B89\u5168\uFF01\u6700\u8FD1\uFF0C\u6211\u5728\u68EE\u6797\u91CC\u770B\u5230\u4E00\u53EA\u6B7B\u53BB\u7684\u52A8\u7269\u5728\u53D7\u5230\u80CC\u4E0A\u6709\u523A\u7684\u66F4\u5927\u751F\u7269\u653B\u51FB\u540E\u7AD9\u4E86\u8D77\u6765\u3002"
+      - "\u0412\u0441\u0435\u043C, \u043A\u0442\u043E \u043D\u0430\u0439\u0434\u0435\u0442
+        \u044D\u0442\u043E \u043F\u0438\u0441\u044C\u043C\u043E, \u0411\u0415\u0413\u0418\u0422\u0415!
+        \u0417\u0434\u0435\u0441\u044C \u041D\u0415 \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E!
+        \u041D\u0435\u0434\u0430\u0432\u043D\u043E \u044F \u0432\u0438\u0434\u0435\u043B
+        \u0432 \u043B\u0435\u0441\u0443 \u043C\u0435\u0440\u0442\u0432\u043E\u0435
+        \u0436\u0438\u0432\u043E\u0442\u043D\u043E\u0435, \u0432\u0441\u0442\u0430\u0432\u0448\u0435\u0435
+        \u043F\u043E\u0441\u043B\u0435 \u043D\u0430\u043F\u0430\u0434\u0435\u043D\u0438\u044F
+        \u0435\u0449\u0435 \u0431\u043E\u043B\u0435\u0435 \u043A\u0440\u0443\u043F\u043D\u043E\u0433\u043E
+        \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0430 \u0441 \u0448\u0438\u043F\u0430\u043C\u0438
+        \u043D\u0430 \u0441\u043F\u0438\u043D\u0435."
+      - "A todo aquel que encuentre esta carta, \xA1HUYA! \xA1NO es seguro aqu\xED!
+        Recientemente vi en el bosque un animal muerto levantarse despu\xE9s de haber
+        sido atacado por una criatura a\xFAn m\xE1s grande con espinas en el lomo."
+      - "A todos que encontrarem esta carta, FUJAM! Aqui N\xC3O \xE9 seguro! Recentemente
+        vi na floresta um animal morto se levantar ap\xF3s ter sido atacado por uma
+        criatura ainda maior e com espinhos nas costas."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Documents/SurvivalOldHouse_01
+      TermType: 0
+      Description: 
+      Languages:
+      - A rumor has spread throughout the region that there is a creature feeding
+        on the blood of farm animals. Some nearby farmers are thinking about moving
+        because of this. Nonsense! I have lived here for many years and no creature
+        has ever fed on the blood of my animals. They're calling her Chupacabra.
+      - "\u8C23\u8A00\u5728\u8BE5\u5730\u533A\u6D41\u4F20\uFF0C\u8BF4\u6709\u4E00\u79CD\u751F\u7269\u4EE5\u519C\u573A\u52A8\u7269\u7684\u8840\u6DB2\u4E3A\u98DF\u3002\u9644\u8FD1\u7684\u4E00\u4E9B\u519C\u6C11\u4E5F\u56E0\u6B64\u8003\u8651\u642C\u8FC1\u3002\u5E9F\u8BDD\uFF01\u6211\u5728\u8FD9\u91CC\u4F4F\u4E86\u5F88\u591A\u5E74\uFF0C\u4ECE\u6765\u6CA1\u6709\u4EFB\u4F55\u751F\u7269\u4EE5\u6211\u7684\u52A8\u7269\u7684\u8840\u4E3A\u98DF\u3002\u4ED6\u4EEC\u53EB\u5979\u5353\u67CF\u5361\u5E03\u62C9\u3002"
+      - "\u041F\u043E \u0440\u0435\u0433\u0438\u043E\u043D\u0443 \u0440\u0430\u0441\u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0438\u043B\u0441\u044F
+        \u0441\u043B\u0443\u0445, \u0447\u0442\u043E \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442
+        \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E, \u043F\u0438\u0442\u0430\u044E\u0449\u0435\u0435\u0441\u044F
+        \u043A\u0440\u043E\u0432\u044C\u044E \u0441\u0435\u043B\u044C\u0441\u043A\u043E\u0445\u043E\u0437\u044F\u0439\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0445
+        \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445. \u0418\u0437-\u0437\u0430
+        \u044D\u0442\u043E\u0433\u043E \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0435
+        \u0431\u043B\u0438\u0437\u043B\u0435\u0436\u0430\u0449\u0438\u0435 \u0444\u0435\u0440\u043C\u0435\u0440\u044B
+        \u0437\u0430\u0434\u0443\u043C\u044B\u0432\u0430\u044E\u0442\u0441\u044F
+        \u043E \u043F\u0435\u0440\u0435\u0435\u0437\u0434\u0435. \u0415\u0440\u0443\u043D\u0434\u0430!
+        \u042F \u0436\u0438\u0432\u0443 \u0437\u0434\u0435\u0441\u044C \u0443\u0436\u0435
+        \u043C\u043D\u043E\u0433\u043E \u043B\u0435\u0442, \u0438 \u043D\u0438 \u043E\u0434\u043D\u043E
+        \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E \u043D\u0438\u043A\u043E\u0433\u0434\u0430
+        \u043D\u0435 \u043F\u0438\u0442\u0430\u043B\u043E\u0441\u044C \u043A\u0440\u043E\u0432\u044C\u044E
+        \u043C\u043E\u0438\u0445 \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445.
+        \u041E\u043D\u0438 \u0437\u043E\u0432\u0443\u0442 \u0435\u0435 \u0427\u0443\u043F\u0430\u043A\u0430\u0431\u0440\u0430."
+      - "Se ha extendido por toda la regi\xF3n el rumor de que existe una criatura
+        que se alimenta de sangre de animales de granja. Algunos agricultores cercanos
+        est\xE1n pensando en mudarse debido a esto. \xA1Disparates! He vivido aqu\xED
+        durante muchos a\xF1os y ninguna criatura se ha alimentado jam\xE1s de la
+        sangre de mis animales. La llaman Chupacabra."
+      - "Um boato se espalhou pela regi\xE3o de que h\xE1 uma criatura se alimentando
+        do sangue dos animais das fazendas. Alguns fazendeiros pr\xF3ximos est\xE3o
+        pensando em se mudar por conta disso. Bobagem! Moro aqui h\xE1 muitos anos
+        e nenhuma criatura jamais se alimentou do sangue dos meus animais. Est\xE3o
+        chamando ela de Chupacabra."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Documents/SurvivalOldHouse_03
+      TermType: 0
+      Description: 
+      Languages:
+      - A few days ago some of my animals were attacked by the Chupacabra. Their
+        bodies were devoid of any blood. I want this creature to go back to the hell
+        it came from! Or I'll have to move so I don't die here. My gun is in the
+        barn in case I need it.
+      - "\u51E0\u5929\u524D\uFF0C\u6211\u7684\u4E00\u4E9B\u52A8\u7269\u88AB\u5353\u67CF\u5361\u5E03\u62C9\u88AD\u51FB\u4E86\u3002\u4ED6\u4EEC\u7684\u8EAB\u4F53\u6CA1\u6709\u4EFB\u4F55\u8840\u8FF9\u3002\u6211\u60F3\u8BA9\u8FD9\u4E2A\u751F\u7269\u56DE\u5230\u5B83\u6765\u81EA\u7684\u5730\u72F1\uFF01\u4E0D\u7136\u6211\u5C31\u5F97\u642C\u8D70\uFF0C\u8FD9\u6837\u6211\u624D\u4E0D\u4F1A\u6B7B\u5728\u8FD9\u91CC\u3002\u6211\u7684\u67AA\u5728\u8C37\u4ED3\u91CC\u4EE5\u5907\u4E0D\u65F6\u4E4B\u9700\u3002"
+      - "\u041D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0434\u043D\u0435\u0439
+        \u043D\u0430\u0437\u0430\u0434 \u043D\u0430 \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0445
+        \u0438\u0437 \u043C\u043E\u0438\u0445 \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445
+        \u043D\u0430\u043F\u0430\u043B\u0430 \u0447\u0443\u043F\u0430\u043A\u0430\u0431\u0440\u0430.
+        \u0418\u0445 \u0442\u0435\u043B\u0430 \u0431\u044B\u043B\u0438 \u043B\u0438\u0448\u0435\u043D\u044B
+        \u043A\u0440\u043E\u0432\u0438. \u042F \u0445\u043E\u0447\u0443, \u0447\u0442\u043E\u0431\u044B
+        \u044D\u0442\u043E \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E \u0432\u0435\u0440\u043D\u0443\u043B\u043E\u0441\u044C
+        \u0432 \u0430\u0434, \u043E\u0442\u043A\u0443\u0434\u0430 \u043E\u043D\u043E
+        \u043F\u043E\u044F\u0432\u0438\u043B\u043E\u0441\u044C! \u0418\u043B\u0438
+        \u043C\u043D\u0435 \u043F\u0440\u0438\u0434\u0435\u0442\u0441\u044F \u043F\u0435\u0440\u0435\u0435\u0445\u0430\u0442\u044C,
+        \u0447\u0442\u043E\u0431\u044B \u043D\u0435 \u0443\u043C\u0435\u0440\u0435\u0442\u044C
+        \u0437\u0434\u0435\u0441\u044C. \u041C\u043E\u0439 \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442
+        \u0432 \u0441\u0430\u0440\u0430\u0435 \u043D\u0430 \u0441\u043B\u0443\u0447\u0430\u0439,
+        \u0435\u0441\u043B\u0438 \u043E\u043D \u043C\u043D\u0435 \u043F\u043E\u043D\u0430\u0434\u043E\u0431\u0438\u0442\u0441\u044F."
+      - "Hace unos d\xEDas algunos de mis animales fueron atacados por el Chupacabras.
+        Sus cuerpos estaban desprovistos de sangre. \xA1Quiero que esta criatura
+        regrese al infierno del que vino! O tendr\xE9 que mudarme para no morir aqu\xED.
+        Mi arma est\xE1 en el granero por si la necesito."
+      - "Dias atr\xE1s alguns dos meus animais foram atacados pelo Chupacabra. Seus
+        corpos estavam sem sangue algum. Quero que esta criatura volte para o inferno
+        de onde veio! Ou vou ter que me mudar para n\xE3o morrer aqui. Minha arma
+        est\xE1 no celeiro caso eu precise."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Documents/SurvivalOldHouse_04
+      TermType: 0
+      Description: 
+      Languages:
+      - 'The guard in the region told me that he saw the Chupacabra sucking the blood
+        of living beings and transforming some into mutants. I don''t know if this
+        is true, but I can''t risk my family''s lives. I will soon be leaving here
+        for a safer place. In case anyone is reading this letter: BEWARE!'
+      - "\u8BE5\u5730\u533A\u7684\u5B88\u536B\u544A\u8BC9\u6211\uFF0C\u4ED6\u770B\u5230\u5353\u67CF\u5361\u5E03\u62C9\u5438\u98DF\u751F\u7269\u7684\u8840\u6DB2\uFF0C\u5E76\u5C06\u5176\u4E2D\u4E00\u4E9B\u53D8\u6210\u53D8\u79CD\u4EBA\u3002\u6211\u4E0D\u77E5\u9053\u8FD9\u662F\u5426\u5C5E\u5B9E\uFF0C\u4F46\u6211\u4E0D\u80FD\u62FF\u5BB6\u4EBA\u7684\u751F\u547D\u5192\u9669\u3002\u6211\u5F88\u5FEB\u5C31\u8981\u79BB\u5F00\u8FD9\u91CC\u53BB\u4E00\u4E2A\u66F4\u5B89\u5168\u7684\u5730\u65B9\u3002\u5982\u679C\u6709\u4EBA\u6B63\u5728\u8BFB\u8FD9\u5C01\u4FE1\uFF1A\u8BF7\u6CE8\u610F\uFF01"
+      - "\u041E\u0445\u0440\u0430\u043D\u043D\u0438\u043A \u0432 \u044D\u0442\u043E\u043C
+        \u0440\u0430\u0439\u043E\u043D\u0435 \u0440\u0430\u0441\u0441\u043A\u0430\u0437\u0430\u043B
+        \u043C\u043D\u0435, \u0447\u0442\u043E \u0432\u0438\u0434\u0435\u043B, \u043A\u0430\u043A
+        \u0447\u0443\u043F\u0430\u043A\u0430\u0431\u0440\u0430 \u0441\u043E\u0441\u0430\u043B\u0430
+        \u043A\u0440\u043E\u0432\u044C \u0436\u0438\u0432\u044B\u0445 \u0441\u0443\u0449\u0435\u0441\u0442\u0432
+        \u0438 \u043F\u0440\u0435\u0432\u0440\u0430\u0449\u0430\u043B\u0430 \u043D\u0435\u043A\u043E\u0442\u043E\u0440\u044B\u0445
+        \u0432 \u043C\u0443\u0442\u0430\u043D\u0442\u043E\u0432. \u041D\u0435 \u0437\u043D\u0430\u044E,
+        \u043F\u0440\u0430\u0432\u0434\u0430 \u043B\u0438 \u044D\u0442\u043E, \u043D\u043E
+        \u044F \u043D\u0435 \u043C\u043E\u0433\u0443 \u0440\u0438\u0441\u043A\u043E\u0432\u0430\u0442\u044C
+        \u0436\u0438\u0437\u043D\u044F\u043C\u0438 \u0441\u0432\u043E\u0435\u0439
+        \u0441\u0435\u043C\u044C\u0438. \u0421\u043A\u043E\u0440\u043E \u044F \u0443\u0435\u0434\u0443
+        \u043E\u0442\u0441\u044E\u0434\u0430 \u0432 \u0431\u043E\u043B\u0435\u0435
+        \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0435 \u043C\u0435\u0441\u0442\u043E.
+        \u0415\u0441\u043B\u0438 \u043A\u0442\u043E-\u0442\u043E \u0447\u0438\u0442\u0430\u0435\u0442
+        \u044D\u0442\u043E \u043F\u0438\u0441\u044C\u043C\u043E: \u041E\u0421\u0422\u041E\u0420\u041E\u0416\u041D\u041E!"
+      - "El guardia de la regi\xF3n me dijo que vio al Chupacabras chupando la sangre
+        de los seres vivos y transformando a algunos en mutantes. No s\xE9 si esto
+        es cierto, pero no puedo arriesgar la vida de mi familia. Pronto partir\xE9
+        de aqu\xED hacia un lugar m\xE1s seguro. En caso de que alguien est\xE9 leyendo
+        esta carta: \xA1CUIDADO!"
+      - "O guarda da regi\xE3o me contou que viu o Chupacabra sugando o sangue de
+        seres vivos e transformando alguns em mutantes. N\xE3o sei se isso \xE9 verdade,
+        mas n\xE3o posso arriscar a vida da minha fam\xEDlia. Em breve estarei indo
+        embora daqui para um lugar mais seguro. Caso algu\xE9m esteja lendo esta
+        carta: CUIDADO!"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Documents/SurvivalOldHouse_05
+      TermType: 0
+      Description: 
+      Languages:
+      - When I built this cave house, I thought it might be a safe place, hidden
+        from the dangers of the region, but I was wrong. I just hope the Chupacabra
+        isn't real, or maybe I won't make it home tonight.
+      - "\u5F53\u6211\u5EFA\u9020\u8FD9\u5EA7\u6D1E\u7A74\u623F\u5C4B\u65F6\uFF0C\u6211\u8BA4\u4E3A\u5B83\u53EF\u80FD\u662F\u4E00\u4E2A\u5B89\u5168\u7684\u5730\u65B9\uFF0C\u8FDC\u79BB\u8BE5\u5730\u533A\u7684\u5371\u9669\uFF0C\u4F46\u6211\u9519\u4E86\u3002\u6211\u53EA\u5E0C\u671B\u5353\u67CF\u5361\u5E03\u62C9\u4E0D\u662F\u771F\u7684\uFF0C\u4E0D\u7136\u6211\u4ECA\u665A\u5C31\u56DE\u4E0D\u4E86\u5BB6\u4E86\u3002"
+      - "\u041A\u043E\u0433\u0434\u0430 \u044F \u0441\u0442\u0440\u043E\u0438\u043B
+        \u044D\u0442\u043E\u0442 \u0434\u043E\u043C \u0432 \u043F\u0435\u0449\u0435\u0440\u0435,
+        \u044F \u0434\u0443\u043C\u0430\u043B, \u0447\u0442\u043E \u044D\u0442\u043E
+        \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E\u0435
+        \u043C\u0435\u0441\u0442\u043E, \u0441\u043A\u0440\u044B\u0442\u043E\u0435
+        \u043E\u0442 \u043E\u043F\u0430\u0441\u043D\u043E\u0441\u0442\u0435\u0439
+        \u0440\u0435\u0433\u0438\u043E\u043D\u0430, \u043D\u043E \u044F \u043E\u0448\u0438\u0431\u0430\u043B\u0441\u044F.
+        \u042F \u043F\u0440\u043E\u0441\u0442\u043E \u043D\u0430\u0434\u0435\u044E\u0441\u044C,
+        \u0447\u0442\u043E \u0427\u0443\u043F\u0430\u043A\u0430\u0431\u0440\u0430
+        \u043D\u0435 \u043D\u0430\u0441\u0442\u043E\u044F\u0449\u0430\u044F, \u0438\u043B\u0438,
+        \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C, \u044F \u043D\u0435
+        \u0434\u043E\u0431\u0435\u0440\u0443\u0441\u044C \u0434\u043E \u0434\u043E\u043C\u0430
+        \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u0432\u0435\u0447\u0435\u0440\u043E\u043C."
+      - "Cuando constru\xED esta casa cueva pens\xE9 que podr\xEDa ser un lugar seguro,
+        escondido de los peligros de la regi\xF3n, pero me equivoqu\xE9. S\xF3lo
+        espero que el Chupacabra no sea real, o tal vez no llegue a casa esta noche."
+      - "Quando constru\xED esta casa na caverna, pensei que poderia ser um lugar
+        seguro, escondido dos perigos da regi\xE3o, mas eu estava enganado. S\xF3
+        espero que o Chupacabra n\xE3o seja real, ou talvez eu n\xE3o chegue em casa
+        esta noite."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Documents/SurvivalPostOffice
+      TermType: 0
+      Description: 
+      Languages:
+      - Last night I think I saw a creature from hell walking nearby, it was big
+        and had red eyes. I've never seen anything like it, I wonder if it's still
+        safe to live here.
+      - "\u6628\u665A\u6211\u60F3\u6211\u770B\u5230\u4E00\u4E2A\u6765\u81EA\u5730\u72F1\u7684\u751F\u7269\u5728\u9644\u8FD1\u8D70\u6765\u8D70\u53BB\uFF0C\u5B83\u5F88\u5927\uFF0C\u6709\u7EA2\u8272\u7684\u773C\u775B\u3002\u6211\u4ECE\u6765\u6CA1\u6709\u89C1\u8FC7\u8FD9\u6837\u7684\u4E8B\u60C5\uFF0C\u6211\u60F3\u77E5\u9053\u4F4F\u5728\u8FD9\u91CC\u662F\u5426\u8FD8\u5B89\u5168\u3002"
+      - "\u041A\u0430\u0436\u0435\u0442\u0441\u044F, \u043F\u0440\u043E\u0448\u043B\u043E\u0439
+        \u043D\u043E\u0447\u044C\u044E \u044F \u0432\u0438\u0434\u0435\u043B \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E
+        \u0438\u0437 \u0430\u0434\u0430, \u0438\u0434\u0443\u0449\u0435\u0435 \u043D\u0435\u043F\u043E\u0434\u0430\u043B\u0435\u043A\u0443,
+        \u043E\u043D\u043E \u0431\u044B\u043B\u043E \u0431\u043E\u043B\u044C\u0448\u0438\u043C
+        \u0438 \u0441 \u043A\u0440\u0430\u0441\u043D\u044B\u043C\u0438 \u0433\u043B\u0430\u0437\u0430\u043C\u0438.
+        \u042F \u043D\u0438\u043A\u043E\u0433\u0434\u0430 \u043D\u0435 \u0432\u0438\u0434\u0435\u043B
+        \u043D\u0438\u0447\u0435\u0433\u043E \u043F\u043E\u0434\u043E\u0431\u043D\u043E\u0433\u043E,
+        \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E, \u0431\u0435\u0437\u043E\u043F\u0430\u0441\u043D\u043E
+        \u043B\u0438 \u0437\u0434\u0435\u0441\u044C \u0436\u0438\u0442\u044C?"
+      - "Anoche creo que vi una criatura del infierno caminando cerca, era grande
+        y ten\xEDa los ojos rojos. Nunca hab\xEDa visto algo as\xED, me pregunto
+        si todav\xEDa es seguro vivir aqu\xED."
+      - "Ontem a noite acho que vi uma criatura do inferno andando aqui por perto,
+        era grande e tinha olhos vermelhos. Nunca vi algo parecido, me pergunto se
+        ainda \xE9 seguro morar aqui."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: FeedbackForm
+      TermType: 0
+      Description: 
+      Languages:
+      - Feedback form
+      - "\u53CD\u9988\u8868\u683C"
+      - "\u0424\u043E\u0440\u043C\u0430 \u043E\u0431\u0440\u0430\u0442\u043D\u043E\u0439
+        \u0441\u0432\u044F\u0437\u0438"
+      - Formulario de feedback
+      - "Formul\xE1rio de feedback"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: FeedbackForm_URL
+      TermType: 0
+      Description: 
+      Languages:
+      - https://forms.gle/QKDMM4RJ33wiizkBA
+      - https://forms.gle/QKDMM4RJ33wiizkBA
+      - https://forms.gle/QKDMM4RJ33wiizkBA
+      - https://forms.gle/BqVViK7EE4nPSc21A
+      - https://forms.gle/BqVViK7EE4nPSc21A
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Font_Default
+      TermType: 9
+      Description: 
+      Languages:
+      - REEMKUFI-REGULAR SDF
+      - NotoSansSC-Regular SDF
+      - NotoSans-Regular SDF
+      - REEMKUFI-REGULAR SDF
+      - REEMKUFI-REGULAR SDF
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Font_Default_Outlined
+      TermType: 9
+      Description: 
+      Languages:
+      - REEMKUFI-REGULAR SDF OUTLINED
+      - NotoSansSC-Regular SDF OUTLINED
+      - NotoSans-Regular SDF OUTLINED
+      - REEMKUFI-REGULAR SDF OUTLINED
+      - REEMKUFI-REGULAR SDF OUTLINED
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Font_Default_OutlinedShadowed
+      TermType: 9
+      Description: 
+      Languages:
+      - REEMKUFI-REGULAR SDF OUTLINED SHADOWED
+      - NotoSansSC-Regular SDF OUTLINED SHADOWED
+      - NotoSans-Regular SDF OUTLINED SHADOWED
+      - REEMKUFI-REGULAR SDF OUTLINED SHADOWED
+      - REEMKUFI-REGULAR SDF OUTLINED SHADOWED
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Graphics/High
+      TermType: 0
+      Description: Game graphics quality.
+      Languages:
+      - High
+      - "\u9AD8"
+      - "\u0412\u044B\u0441\u043E\u043A\u0438\u0439"
+      - Alta
+      - Alta
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Graphics/Low
+      TermType: 0
+      Description: Game graphics quality.
+      Languages:
+      - Low
+      - "\u4F4E"
+      - "\u041D\u0438\u0437\u043A\u0438\u0439"
+      - Baja
+      - Baixa
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Graphics/Medium
+      TermType: 0
+      Description: Game graphics quality.
+      Languages:
+      - Medium
+      - "\u4E2D\u7B49"
+      - "\u0421\u0440\u0435\u0434\u043D\u0438\u0439"
+      - Media
+      - "M\xE9dia"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Graphics/Ultra
+      TermType: 0
+      Description: Game graphics quality.
+      Languages:
+      - Ultra
+      - "\u8D85\u7EA7"
+      - "\u0423\u043B\u044C\u0442\u0440\u0430"
+      - Ultra
+      - Ultra
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Graphics/VeryHigh
+      TermType: 0
+      Description: Game graphics quality.
+      Languages:
+      - Very high
+      - "\u975E\u5E38\u9AD8"
+      - "\u041E\u0447\u0435\u043D\u044C \u0432\u044B\u0441\u043E\u043A\u0438\u0439"
+      - Muy alta
+      - Muito alta
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Graphics/VeryLow
+      TermType: 0
+      Description: Game graphics quality.
+      Languages:
+      - Very low
+      - "\u975E\u5E38\u4F4E"
+      - "\u041E\u0447\u0435\u043D\u044C \u043D\u0438\u0437\u043A\u0438\u0439"
+      - Muy baja
+      - Muito baixa
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: InventoryFull
+      TermType: 0
+      Description: Already have item in inventory.
+      Languages:
+      - Inventory full
+      - "\u5DF2\u7ECF\u6709"
+      - "\u0423\u0436\u0435 \u0435\u0441\u0442\u044C"
+      - Ya tiene
+      - "Invent\xE1rio cheio"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/30-30
+      TermType: 0
+      Description: 
+      Languages:
+      - 30-30
+      - 30-30
+      - 30-30
+      - 30-30
+      - 30-30
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/AKM
+      TermType: 0
+      Description: Gun.
+      Languages:
+      - AKM
+      - AKM
+      - "\u0410\u041A\u041C"
+      - AKM
+      - AKM
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/AKMAmmo
+      TermType: 0
+      Description: Gun ammo.
+      Languages:
+      - AKM Ammo
+      - "AKM \u5F39\u836F"
+      - "\u0411\u043E\u0435\u043F\u0440\u0438\u043F\u0430\u0441\u044B \u0410\u041A\u041C"
+      - "Munici\xF3n para AKM"
+      - "Muni\xE7\xE3o de AKM"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/BaseballBat
+      TermType: 0
+      Description: Melee weapon.
+      Languages:
+      - Baseball Bat
+      - "\u68D2\u7403\u68D2"
+      - "\u0411\u0435\u0439\u0441\u0431\u043E\u043B\u044C\u043D\u0430\u044F \u0431\u0438\u0442\u0430"
+      - "Bate de B\xE9isbol"
+      - "Bast\xE3o de Beisebol"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/Binoculars
+      TermType: 0
+      Description: 
+      Languages:
+      - Binoculars
+      - "\u671B\u8FDC\u955C"
+      - "\u0411\u0438\u043D\u043E\u043A\u043B\u044C"
+      - "Prism\xE1ticos"
+      - "Bin\xF3culo"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/CombatKnife
+      TermType: 0
+      Description: Melee weapon.
+      Languages:
+      - Combat Knife
+      - "\u6218\u6597\u5200"
+      - "\u0411\u043E\u0435\u0432\u043E\u0439 \u043D\u043E\u0436"
+      - Cuchillo de Combate
+      - Faca de Combate
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/Compass
+      TermType: 0
+      Description: 
+      Languages:
+      - Compass
+      - "\u7F57\u76D8"
+      - "\u041A\u043E\u043C\u043F\u0430\u0441"
+      - "Br\xFAjula"
+      - "B\xFAssola"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/Crossbow
+      TermType: 0
+      Description: 
+      Languages:
+      - Crossbow
+      - "\u5F29"
+      - "\u0410\u0440\u0431\u0430\u043B\u0435\u0442"
+      - Ballesta
+      - Besta
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/CrossbowArrow
+      TermType: 0
+      Description: 
+      Languages:
+      - Crossbow Arrow
+      - "\u5F29\u7BAD"
+      - "\u0410\u0440\u0431\u0430\u043B\u0435\u0442\u043D\u0430\u044F \u0421\u0442\u0440\u0435\u043B\u0430"
+      - Flecha de Ballesta
+      - Flecha de Besta
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/DoubleBarrelShotgun
+      TermType: 0
+      Description: Gun.
+      Languages:
+      - Double Barrel Shotgun
+      - "\u53CC\u7BA1\u9730\u5F39\u67AA"
+      - "\u0414\u0432\u0443\u0441\u0442\u0432\u043E\u043B\u044C\u043D\u044B\u0439
+        \u0434\u0440\u043E\u0431\u043E\u0432\u0438\u043A"
+      - Fusil Doble
+      - Espingarda de Cano Duplo
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/F1
+      TermType: 0
+      Description: Gun.
+      Languages:
+      - F1
+      - F1
+      - F1
+      - F1
+      - F1
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/F1Ammo
+      TermType: 0
+      Description: Gun ammo.
+      Languages:
+      - F1 Ammo
+      - "F1\u5F39\u836F"
+      - "\u0411\u043E\u0435\u043F\u0440\u0438\u043F\u0430\u0441\u044B F1"
+      - "Munici\xF3n para F1"
+      - "Muni\xE7\xE3o de F1"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/FireAxe
+      TermType: 0
+      Description: Melee weapon.
+      Languages:
+      - Fire Axe
+      - "\u6D88\u9632\u65A7"
+      - "\u041F\u043E\u0436\u0430\u0440\u043D\u044B\u0439 \u0442\u043E\u043F\u043E\u0440"
+      - Hacha de Fuego
+      - Machado de Fogo
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/FragGrenade
+      TermType: 0
+      Description: Throwable item.
+      Languages:
+      - Frag Grenade
+      - "\u7834\u7247\u624B\u69B4\u5F39"
+      - "\u041E\u0441\u043A\u043E\u043B\u043E\u0447\u043D\u0430\u044F \u0433\u0440\u0430\u043D\u0430\u0442\u0430"
+      - "Granada de Fragmentaci\xF3n"
+      - "Granada de Fragmenta\xE7\xE3o"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/HandgunAmmo
+      TermType: 0
+      Description: Gun ammo.
+      Languages:
+      - Handgun Ammo
+      - "\u624B\u67AA\u5F39\u836F"
+      - "\u0411\u043E\u0435\u043F\u0440\u0438\u043F\u0430\u0441\u044B \u0434\u043B\u044F
+        \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442\u0430"
+      - "Munici\xF3n para Pistola"
+      - "Muni\xE7\xE3o de Pistola"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/HealingSyringe
+      TermType: 0
+      Description: 
+      Languages:
+      - Healing Syringe
+      - "\u6CBB\u7597\u9488\u7BA1"
+      - "\u041B\u0435\u0447\u0435\u0431\u043D\u044B\u0439 \u0448\u043F\u0440\u0438\u0446"
+      - "Jeringa de Curaci\xF3n"
+      - Seringa de Cura
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/HuntingRifle
+      TermType: 0
+      Description: Gun.
+      Languages:
+      - Hunting Rifle
+      - "\u72E9\u730E\u6B65\u67AA"
+      - "\u041E\u0445\u043E\u0442\u043D\u0438\u0447\u044C\u0435 \u0440\u0443\u0436\u044C\u0435"
+      - Rifle de Caza
+      - "Rifle de Ca\xE7a"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/Key
+      TermType: 0
+      Description: Door key.
+      Languages:
+      - Key
+      - "\u94A5\u5319"
+      - "\u041A\u043B\u044E\u0447"
+      - Llave
+      - Chave
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/M1911
+      TermType: 0
+      Description: Gun.
+      Languages:
+      - M1911
+      - M1911
+      - "\u041C1911"
+      - M1911
+      - M1911
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/M1A
+      TermType: 0
+      Description: Gun.
+      Languages:
+      - M1A
+      - M1A
+      - "\u041C1\u0410"
+      - M1A
+      - M1A
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/M1AAmmo
+      TermType: 0
+      Description: Gun ammo.
+      Languages:
+      - M1A Ammo
+      - "M1A\u5F39\u836F"
+      - "\u0411\u043E\u0435\u043F\u0440\u0438\u043F\u0430\u0441\u044B \u041C1\u0410"
+      - "Munici\xF3n para M1A"
+      - "Muni\xE7\xE3o de M1A"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/MP5
+      TermType: 0
+      Description: Gun.
+      Languages:
+      - MP5
+      - MP5
+      - MP5
+      - MP5
+      - MP5
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/MagAmmo
+      TermType: 0
+      Description: Gun ammo.
+      Languages:
+      - Magnum Ammo
+      - "\u4E07\u80FD\u5F39\u836F"
+      - "\u0411\u043E\u0435\u043F\u0440\u0438\u043F\u0430\u0441\u044B Magnum"
+      - "Munici\xF3n para Magnum"
+      - "Muni\xE7\xE3o de Magnum"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/Marlin 336
+      TermType: 0
+      Description: 
+      Languages:
+      - Marlin 336
+      - Marlin 336
+      - Marlin 336
+      - Marlin 336
+      - Marlin 336
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/R870
+      TermType: 0
+      Description: Gun.
+      Languages:
+      - R870
+      - R870
+      - R870
+      - R870
+      - R870
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/Revolver
+      TermType: 0
+      Description: Gun.
+      Languages:
+      - Revolver
+      - "\u5DE6\u8F6E\u624B\u67AA"
+      - "\u0420\u0435\u0432\u043E\u043B\u044C\u0432\u0435\u0440"
+      - "Rev\xF3lver"
+      - "Rev\xF3lver"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/RifleAmmo
+      TermType: 0
+      Description: Gun ammo.
+      Languages:
+      - Rifle Ammo
+      - "\u6B65\u67AA\u5F39\u836F"
+      - "\u0411\u043E\u0435\u043F\u0440\u0438\u043F\u0430\u0441\u044B \u0434\u043B\u044F
+        \u0432\u0438\u043D\u0442\u043E\u0432\u043A\u0438"
+      - "Munici\xF3n para Rifle"
+      - "Muni\xE7\xE3o de Rifle"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Items/ShotgunShell
+      TermType: 0
+      Description: Gun ammo.
+      Languages:
+      - Shotgun Shell
+      - "\u9730\u5F39\u67AA\u5916\u58F3"
+      - "\u041F\u0430\u0442\u0440\u043E\u043D \u0434\u043B\u044F \u0434\u0440\u043E\u0431\u043E\u0432\u0438\u043A\u0430"
+      - Cartuchos para Fusil
+      - Cartucho de Espingarda
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Loading
+      TermType: 0
+      Description: Loading game.
+      Languages:
+      - Loading...
+      - "\u52A0\u8F7D\u4E2D..."
+      - "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430..."
+      - Cargando...
+      - Carregando...
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: LoadingProgress
+      TermType: 0
+      Description: Loading game.
+      Languages:
+      - Loading progress...
+      - "\u52A0\u8F7D\u8FDB\u5EA6..."
+      - "\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430 \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441\u0430..."
+      - Cargando progreso...
+      - Carregando progresso...
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Locked
+      TermType: 0
+      Description: Locked door.
+      Languages:
+      - Locked
+      - "\u9501\u5B9A"
+      - "\u0417\u0430\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u043D\u043E"
+      - Bloqueado
+      - Trancado
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: MoreGames
+      TermType: 0
+      Description: 
+      Languages:
+      - More Games
+      - "\u66F4\u591A\u6E38\u620F"
+      - "\u0411\u043E\u043B\u044C\u0448\u0435 \u0418\u0433\u0440"
+      - "M\xE1s Juegos"
+      - Mais Jogos
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Next
+      TermType: 0
+      Description: 
+      Languages:
+      - Next
+      - "\u4E0B\u4E00\u4E2A"
+      - "\u0421\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439"
+      - "Pr\xF3ximo"
+      - "Pr\xF3ximo"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Ok
+      TermType: 0
+      Description: 
+      Languages:
+      - Ok
+      - "\u597D\u7684"
+      - "\u041E\u043A"
+      - Aceptar
+      - Ok
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Open
+      TermType: 0
+      Description: Open door.
+      Languages:
+      - Open
+      - "\u6253\u5F00"
+      - "\u041E\u0442\u043A\u0440\u044B\u0442\u044C"
+      - Abrir
+      - Abrir
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: PleaseGiveUsYourFeedack
+      TermType: 0
+      Description: 
+      Languages:
+      - Please give us your feedback about the game.
+      - "\u8BF7\u5411\u6211\u4EEC\u63D0\u4F9B\u60A8\u5BF9\u6E38\u620F\u7684\u53CD\u9988\u3002"
+      - "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u043F\u043E\u0434\u0435\u043B\u0438\u0442\u0435\u0441\u044C
+        \u0441\u0432\u043E\u0438\u043C \u043C\u043D\u0435\u043D\u0438\u0435\u043C
+        \u043E\u0431 \u0438\u0433\u0440\u0435."
+      - "Por favor, danos tu opini\xF3n sobre el juego."
+      - "Por favor, nos d\xEA o seu feedback sobre o jogo."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: QuitGame
+      TermType: 0
+      Description: 
+      Languages:
+      - Quit game
+      - "\u9000\u51FA\u6E38\u620F"
+      - "\u0412\u044B\u0439\u0442\u0438 \u0438\u0437 \u0438\u0433\u0440\u044B"
+      - Salir del juego
+      - Sair do jogo
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Read
+      TermType: 0
+      Description: 
+      Languages:
+      - Read
+      - "\u8BFB"
+      - "\u0427\u0438\u0442\u0430\u0442\u044C"
+      - Leer
+      - Ler
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ReccomendationDescription
+      TermType: 0
+      Description: Recommendation to have a better gaming experience.
+      Languages:
+      - Use headphones and play in a dark and quiet environment for the best experience.
+      - "\u4F7F\u7528\u8033\u673A\u5E76\u5728\u9ED1\u6697\u5B89\u9759\u7684\u73AF\u5883\u4E2D\u73A9\u4EE5\u83B7\u5F97\u6700\u4F73\u4F53\u9A8C\u3002"
+      - "\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435 \u043D\u0430\u0443\u0448\u043D\u0438\u043A\u0438
+        \u0438 \u0438\u0433\u0440\u0430\u0439\u0442\u0435 \u0432 \u0442\u0435\u043C\u043D\u043E\u0439
+        \u0438 \u0442\u0438\u0445\u043E\u0439 \u043E\u0431\u0441\u0442\u0430\u043D\u043E\u0432\u043A\u0435,
+        \u0447\u0442\u043E\u0431\u044B \u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C
+        \u043D\u0430\u0438\u043B\u0443\u0447\u0448\u0438\u0435 \u0432\u043F\u0435\u0447\u0430\u0442\u043B\u0435\u043D\u0438\u044F."
+      - Utiliza auriculares y juega en un entorno oscuro y sin ruidos para disfrutar
+        de una mejor experiencia.
+      - "Use fones de ouvido e jogue em um ambiente escuro e silencioso para uma
+        melhor experi\xEAncia."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Recommendation
+      TermType: 0
+      Description: Recommendation to have a better gaming experience.
+      Languages:
+      - Recommendation
+      - "\u63A8\u8350"
+      - "\u0420\u0435\u043A\u043E\u043C\u0435\u043D\u0434\u0430\u0446\u0438\u044F"
+      - "Recomendaci\xF3n"
+      - "Recomenda\xE7\xE3o"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Restart
+      TermType: 0
+      Description: Restart game.
+      Languages:
+      - Restart
+      - "\u91CD\u65B0\u5F00\u59CB"
+      - "\u041F\u0435\u0440\u0435\u0437\u0430\u043F\u0443\u0441\u043A"
+      - Reiniciar
+      - Reiniciar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Round
+      TermType: 0
+      Description: Game round.
+      Languages:
+      - Round
+      - "\u56DE\u5408"
+      - "\u0420\u0430\u0443\u043D\u0434"
+      - Ronda
+      - Rodada
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: SaveAndExitGame
+      TermType: 0
+      Description: 
+      Languages:
+      - Save and Exit Game
+      - "\u4FDD\u5B58\u5E76\u9000\u51FA\u6E38\u620F"
+      - "\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C \u0438 \u0432\u044B\u0439\u0442\u0438
+        \u0438\u0437 \u0438\u0433\u0440\u044B"
+      - Guardar y Salir del Juego
+      - Salvar e Sair do Jogo
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: SavingProgress
+      TermType: 0
+      Description: 
+      Languages:
+      - Saving progress...
+      - "\u6B63\u5728\u4FDD\u5B58\u8FDB\u5EA6..."
+      - "\u0421\u043E\u0445\u0440\u0430\u043D\u0435\u043D\u0438\u0435 \u043F\u0440\u043E\u0433\u0440\u0435\u0441\u0441\u0430..."
+      - Guardando progreso...
+      - Salvando progresso...
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Ambience
+      TermType: 0
+      Description: Ambient sound volume.
+      Languages:
+      - Ambience
+      - "\u73AF\u5883"
+      - "\u0410\u0442\u043C\u043E\u0441\u0444\u0435\u0440\u0430"
+      - Ambiente
+      - Ambiente
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Apply
+      TermType: 0
+      Description: Apply game settings.
+      Languages:
+      - Apply
+      - "\u5E94\u7528"
+      - "\u041F\u0440\u0438\u043C\u0435\u043D\u0438\u0442\u044C"
+      - Aplicar
+      - Aplicar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/ApplyChanges
+      TermType: 0
+      Description: 
+      Languages:
+      - Apply changes?
+      - "\u5E94\u7528\u66F4\u6539\uFF1F"
+      - "\u041F\u0440\u0438\u043C\u0435\u043D\u0438\u0442\u044C \u0438\u0437\u043C\u0435\u043D\u0435\u043D\u0438\u044F?"
+      - "\xBFAplicar cambios?"
+      - "Aplicar mudan\xE7as?"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Cancel
+      TermType: 0
+      Description: 
+      Languages:
+      - Cancel
+      - "\u53D6\u6D88"
+      - "\u041E\u0442\u043C\u0435\u043D\u0430"
+      - Cancelar
+      - Cancelar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/ChooseDifficulty
+      TermType: 0
+      Description: Game difficulty.
+      Languages:
+      - Choose difficulty
+      - "\u9009\u62E9\u96BE\u5EA6"
+      - "\u0412\u044B\u0431\u0440\u0430\u0442\u044C \u0441\u043B\u043E\u0436\u043D\u043E\u0441\u0442\u044C"
+      - Elegir dificultad
+      - Escolha a dificuldade
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/ChooseLanguage
+      TermType: 0
+      Description: Game language.
+      Languages:
+      - Choose language
+      - "\u9009\u62E9\u8BED\u8A00"
+      - "\u0412\u044B\u0431\u0440\u0430\u0442\u044C \u044F\u0437\u044B\u043A"
+      - Elegir idioma
+      - Escolha o seu idioma
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Controls
+      TermType: 0
+      Description: Game controls.
+      Languages:
+      - Controls
+      - "\u63A7\u5236"
+      - "\u042D\u043B\u0435\u043C\u0435\u043D\u0442\u044B \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F"
+      - Controles
+      - Controles
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Difficulty
+      TermType: 0
+      Description: Game difficulty.
+      Languages:
+      - Difficulty
+      - "\u56F0\u96BE"
+      - "\u0421\u043B\u043E\u0436\u043D\u043E\u0441\u0442\u044C"
+      - Dificultad
+      - Dificuldade
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/DisplayMode
+      TermType: 0
+      Description: Fullscreen, Borderless Windowed or Windowed.
+      Languages:
+      - Display mode
+      - "\u663E\u793A\u6A21\u5F0F"
+      - "\u0420\u0435\u0436\u0438\u043C \u043E\u0442\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u044F"
+      - "Modo de visualizaci\xF3n"
+      - "Modo de exibi\xE7\xE3o"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/General
+      TermType: 0
+      Description: 
+      Languages:
+      - General
+      - "\u4E00\u822C\u7684"
+      - "\u041E\u0431\u0449\u0438\u0439"
+      - General
+      - Geral
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Graphics
+      TermType: 0
+      Description: 
+      Languages:
+      - Graphics
+      - "\u56FE\u5F62"
+      - "\u0413\u0440\u0430\u0444\u0438\u043A\u0430"
+      - "Gr\xE1ficos"
+      - "Gr\xE1ficos"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Hz
+      TermType: 0
+      Description: Screen refresh rate.
+      Languages:
+      - Hz
+      - Hz
+      - "\u0413\u0446"
+      - Hz
+      - Hz
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Language
+      TermType: 0
+      Description: Game language.
+      Languages:
+      - Language
+      - "\u8BED\u8A00"
+      - "\u042F\u0437\u044B\u043A"
+      - Idioma
+      - Idioma
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Quality
+      TermType: 0
+      Description: Game graphics quality.
+      Languages:
+      - Quality
+      - "\u8D28\u91CF"
+      - "\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u043E"
+      - Calidad
+      - Qualidade
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/ResetControls
+      TermType: 0
+      Description: 
+      Languages:
+      - Reset controls
+      - "\u91CD\u7F6E\u63A7\u5236"
+      - "\u0421\u0431\u0440\u043E\u0441\u0438\u0442\u044C \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u044B
+        \u0443\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u0438\u044F"
+      - Restablecer controles
+      - Redefinir controles
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/ResetToDefault
+      TermType: 0
+      Description: Reset game settings.
+      Languages:
+      - Reset to default
+      - "\u91CD\u7F6E\u4E3A\u9ED8\u8BA4"
+      - "\u0412\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D\u0438\u0435
+        \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0439 \u043F\u043E \u0443\u043C\u043E\u043B\u0447\u0430\u043D\u0438\u044E"
+      - Restablecen a los predeterminados
+      - "Restaurar ao padr\xE3o"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Resolution
+      TermType: 0
+      Description: Game screen resolution.
+      Languages:
+      - Resolution
+      - "\u50CF\u7D20"
+      - "\u0420\u0430\u0437\u0440\u0435\u0448\u0435\u043D\u0438\u0435"
+      - "Resoluci\xF3n"
+      - "Resolu\xE7\xE3o"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Sensitivity
+      TermType: 0
+      Description: Mouse and gamepad sensitivity.
+      Languages:
+      - Sensitivity
+      - "\u7075\u654F\u5EA6"
+      - "\u0427\u0443\u0432\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E\u0441\u0442\u044C"
+      - Sensibilidad
+      - Sensibilidade
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/SettingsText
+      TermType: 0
+      Description: Game settings.
+      Languages:
+      - Settings
+      - "\u8BBE\u7F6E"
+      - "\u041D\u0430\u0441\u0442\u0440\u043E\u0439\u043A\u0438"
+      - "Configuraci\xF3n"
+      - "Configura\xE7\xF5es"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/Sound
+      TermType: 0
+      Description: 
+      Languages:
+      - Sound
+      - "\u58F0\u97F3"
+      - "\u0417\u0432\u0443\u043A"
+      - Sonido
+      - Som
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Settings/SoundEffects
+      TermType: 0
+      Description: Sound effects volume.
+      Languages:
+      - Sound effects
+      - "\u58F0\u97F3\u7279\u6548"
+      - "\u0417\u0432\u0443\u043A\u043E\u0432\u044B\u0435 \u044D\u0444\u0444\u0435\u043A\u0442\u044B"
+      - Efectos de sonido
+      - Efeitos sonoros
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Skip
+      TermType: 0
+      Description: Input description. Skip game story introduction.
+      Languages:
+      - Skip
+      - "\u8DF3\u8FC7"
+      - "\u041F\u0440\u043E\u043F\u0443\u0441\u0442\u0438\u0442\u044C"
+      - Saltar
+      - Pular
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: SpecialThanks
+      TermType: 0
+      Description: 
+      Languages:
+      - Special Thanks
+      - "\u7279\u522B\u611F\u8C22"
+      - "\u041E\u0441\u043E\u0431\u0430\u044F \u0411\u043B\u0430\u0433\u043E\u0434\u0430\u0440\u043D\u043E\u0441\u0442\u044C"
+      - Gracias Especiales
+      - Agradecimentos Especiais
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: StartGame
+      TermType: 0
+      Description: 
+      Languages:
+      - Start game
+      - "\u5F00\u59CB\u6E38\u620F"
+      - "\u041D\u0430\u0447\u0430\u0442\u044C \u0438\u0433\u0440\u0443"
+      - Iniciar juego
+      - Iniciar jogo
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: StartNewGame
+      TermType: 0
+      Description: 
+      Languages:
+      - Start New Game
+      - "\u5F00\u59CB\u65B0\u6E38\u620F"
+      - "\u041D\u0430\u0447\u0430\u0442\u044C \u041D\u043E\u0432\u0443\u044E \u0418\u0433\u0440\u0443"
+      - Empieza Un Juego Nuevo
+      - Iniciar Novo Jogo
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Story/EndStory
+      TermType: 0
+      Description: 
+      Languages:
+      - The Chupacabra was killed and peace was reestablished.
+      - "\u5353\u67CF\u5361\u5E03\u62C9\u88AB\u6740\uFF0C\u548C\u5E73\u91CD\u65B0\u5EFA\u7ACB\u3002"
+      - "\u0427\u0443\u043F\u0430\u043A\u0430\u0431\u0440\u0430 \u0431\u044B\u043B\u0430
+        \u0443\u0431\u0438\u0442\u0430, \u0438 \u043C\u0438\u0440 \u0431\u044B\u043B
+        \u0432\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u0435\u043D."
+      - "El Chupacabras fue asesinado y se restableci\xF3 la paz."
+      - O Chupacabra foi morto e a paz foi restabelecida.
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Story/Story01
+      TermType: 0
+      Description: 
+      Languages:
+      - The Chupacabra is a wild creature of unknown origin that attacks animals
+        and feeds on all their blood. No one has ever been able to find her, but
+        rumors say she is near your farm and hungry.
+      - "\u5353\u67CF\u5361\u5E03\u62C9\u662F\u4E00\u79CD\u6765\u6E90\u4E0D\u660E\u7684\u91CE\u751F\u751F\u7269\uFF0C\u5B83\u653B\u51FB\u52A8\u7269\u5E76\u5438\u98DF\u5B83\u4EEC\u7684\u6240\u6709\u8840\u6DB2\u3002\u6CA1\u4EBA\u80FD\u627E\u5230\u5979\uFF0C\u4F46\u6709\u4F20\u8A00\u8BF4\u5979\u5C31\u5728\u4F60\u7684\u519C\u573A\u9644\u8FD1\uFF0C\u800C\u4E14\u5F88\u997F\u3002"
+      - "\u0427\u0443\u043F\u0430\u043A\u0430\u0431\u0440\u0430 \u2014 \u0434\u0438\u043A\u043E\u0435
+        \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043E \u043D\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u043D\u043E\u0433\u043E
+        \u043F\u0440\u043E\u0438\u0441\u0445\u043E\u0436\u0434\u0435\u043D\u0438\u044F,
+        \u043A\u043E\u0442\u043E\u0440\u043E\u0435 \u043D\u0430\u043F\u0430\u0434\u0430\u0435\u0442
+        \u043D\u0430 \u0436\u0438\u0432\u043E\u0442\u043D\u044B\u0445 \u0438 \u043F\u0438\u0442\u0430\u0435\u0442\u0441\u044F
+        \u0432\u0441\u0435\u0439 \u0438\u0445 \u043A\u0440\u043E\u0432\u044C\u044E.
+        \u041D\u0438\u043A\u043E\u043C\u0443 \u0442\u0430\u043A \u0438 \u043D\u0435
+        \u0443\u0434\u0430\u043B\u043E\u0441\u044C \u0435\u0435 \u043D\u0430\u0439\u0442\u0438,
+        \u043D\u043E \u0445\u043E\u0434\u044F\u0442 \u0441\u043B\u0443\u0445\u0438,
+        \u0447\u0442\u043E \u043E\u043D\u0430 \u043D\u0430\u0445\u043E\u0434\u0438\u0442\u0441\u044F
+        \u043D\u0435\u0434\u0430\u043B\u0435\u043A\u043E \u043E\u0442 \u0432\u0430\u0448\u0435\u0439
+        \u0444\u0435\u0440\u043C\u044B \u0438 \u0433\u043E\u043B\u043E\u0434\u043D\u0430."
+      - "El Chupacabra es una criatura salvaje de origen desconocido que ataca a
+        los animales y se alimenta de toda su sangre. Nadie ha podido encontrarla
+        nunca, pero los rumores dicen que est\xE1 cerca de tu granja y tiene hambre."
+      - "O Chupacabra \xE9 uma criatura selvagem de origem desconhecida que ataca
+        animais e se alimenta de todo o seu sangue. Ningu\xE9m nunca conseguiu encontr\xE1-la,
+        mas rumores dizem que ela est\xE1 pr\xF3xima a sua fazenda e faminta."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Story/Story02
+      TermType: 0
+      Description: 
+      Languages:
+      - To locate the Chupacabra and not be surprised by other threats, listen carefully
+        and follow its tracks.
+      - "\u4E3A\u4E86\u627E\u5230\u5353\u67CF\u5361\u5E03\u62C9\u5E76\u4E14\u4E0D\u88AB\u5176\u4ED6\u5A01\u80C1\u5413\u5230\uFF0C\u8BF7\u4ED4\u7EC6\u8046\u542C\u5E76\u8FFD\u8E2A\u5B83\u7684\u8E2A\u8FF9\u3002"
+      - "\u0427\u0442\u043E\u0431\u044B \u043E\u0431\u043D\u0430\u0440\u0443\u0436\u0438\u0442\u044C
+        \u0427\u0443\u043F\u0430\u043A\u0430\u0431\u0440\u0443 \u0438 \u043D\u0435
+        \u0443\u0434\u0438\u0432\u043B\u044F\u0442\u044C\u0441\u044F \u0434\u0440\u0443\u0433\u0438\u043C
+        \u0443\u0433\u0440\u043E\u0437\u0430\u043C, \u0432\u043D\u0438\u043C\u0430\u0442\u0435\u043B\u044C\u043D\u043E
+        \u0441\u043B\u0443\u0448\u0430\u0439\u0442\u0435 \u0438 \u0438\u0434\u0438\u0442\u0435
+        \u043F\u043E \u0435\u0435 \u0441\u043B\u0435\u0434\u0430\u043C."
+      - Para localizar al Chupacabra y no ser sorprendido por otras amenazas, escuche
+        atentamente y siga sus huellas.
+      - "Para localizar o Chupacabra e n\xE3o ser surpreendido por outras amea\xE7as,
+        ou\xE7a com aten\xE7\xE3o e siga seus rastros."
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Story/Story03
+      TermType: 0
+      Description: 
+      Languages:
+      - Can you kill her or will you be just another one of her victims?
+      - "\u4F60\u80FD\u6740\u4E86\u5979\u8FD8\u662F\u4F1A\u6210\u4E3A\u5979\u7684\u53E6\u4E00\u540D\u53D7\u5BB3\u8005\uFF1F"
+      - "\u0421\u043C\u043E\u0436\u0435\u0442\u0435 \u043B\u0438 \u0432\u044B \u0443\u0431\u0438\u0442\u044C
+        \u0435\u0435 \u0438\u043B\u0438 \u0441\u0442\u0430\u043D\u0435\u0442\u0435
+        \u0435\u0449\u0435 \u043E\u0434\u043D\u043E\u0439 \u0438\u0437 \u0435\u0435
+        \u0436\u0435\u0440\u0442\u0432?"
+      - "\xBFPodr\xE1s matarla o ser\xE1s una m\xE1s de sus v\xEDctimas?"
+      - "Voc\xEA pode mat\xE1-la ou ser\xE1 apenas mais uma de suas v\xEDtimas?"
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: ThanksForPlaying
+      TermType: 0
+      Description: 
+      Languages:
+      - '"Thank you for playing my game! Please write a game review in the store,
+        your review is extremely important to me."'
+      - "\u201C\u611F\u8C22\u60A8\u73A9\u6211\u7684\u6E38\u620F\uFF01\u8BF7\u5728\u5546\u5E97\u91CC\u5199\u4E0B\u6E38\u620F\u8BC4\u8BBA\uFF0C\u60A8\u7684\u8BC4\u8BBA\u5BF9\u6211\u6765\u8BF4\u975E\u5E38\u91CD\u8981\u3002\u201D"
+      - "\xAB\u0421\u043F\u0430\u0441\u0438\u0431\u043E, \u0447\u0442\u043E \u0438\u0433\u0440\u0430\u0435\u0442\u0435
+        \u0432 \u043C\u043E\u044E \u0438\u0433\u0440\u0443! \u041D\u0430\u043F\u0438\u0448\u0438\u0442\u0435,
+        \u043F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430, \u043E\u0431\u0437\u043E\u0440
+        \u0438\u0433\u0440\u044B \u0432 \u043C\u0430\u0433\u0430\u0437\u0438\u043D\u0435,
+        \u0432\u0430\u0448 \u043E\u0442\u0437\u044B\u0432 \u0447\u0440\u0435\u0437\u0432\u044B\u0447\u0430\u0439\u043D\u043E
+        \u0432\u0430\u0436\u0435\u043D \u0434\u043B\u044F \u043C\u0435\u043D\u044F\xBB."
+      - "\"\xA1Gracias por jugar mi juego! Por favor, escribe una rese\xF1a del juego
+        en la tienda, tu rese\xF1a es extremadamente importante para m\xED\"."
+      - "\"Obrigado por jogar meu jogo! Por favor escreva uma an\xE1lise do jogo
+        na loja, sua an\xE1lise \xE9 de extrema import\xE2ncia para mim.\""
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: To
+      TermType: 0
+      Description: 
+      Languages:
+      - to
+      - "\u4EE5"
+      - "\u043A"
+      - para
+      - para
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Unlock
+      TermType: 0
+      Description: Unlock door.
+      Languages:
+      - Unlock
+      - "\u5F00\u9501"
+      - "\u0420\u0430\u0437\u0431\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u0430\u0442\u044C"
+      - Desbloquear
+      - Destrancar
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: Warning
+      TermType: 0
+      Description: 
+      Languages:
+      - Warning
+      - "\u8B66\u544A"
+      - "\u041F\u0440\u0435\u0434\u0443\u043F\u0440\u0435\u0436\u0434\u0435\u043D\u0438\u0435"
+      - Advertencia
+      - Aviso
+      Flags: 0000000000
+      Languages_Touch: []
+    - Term: YouAreDead
+      TermType: 0
+      Description: Game-over title.
+      Languages:
+      - You are dead
+      - "\u60A8\u6B7B\u4E86"
+      - "\u0412\u044B \u0443\u043C\u0435\u0440\u043B\u0438"
+      - "Est\xE1s muerto"
+      - "Voc\xEA est\xE1 morto"
+      Flags: 0000000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Chinese (Simplified)
+      Code: zh-CN
+      Flags: 0
+    - Name: Russian
+      Code: ru
+      Flags: 0
+    - Name: Spanish
+      Code: es
+      Flags: 0
+    - Name: Portuguese (Brazil)
+      Code: pt-BR
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycbwZ6ryGbmq3YTwKtzRLc0wySPi5B-u1aL15LPmUjkfvjTPgj-7SYZyL8C4UyoRzWndS1A/exec
+    Google_SpreadsheetKey: 1P2U3mDlzpoH8k1YCpveODInVR0W0fwnhjQ3k9V00_GA
+    Google_SpreadsheetName: I2Loc Chupacabra Hunt Localization
+    Google_LastUpdatedVersion: 1712233822618
+    Google_Password: fire2023
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets:
+    - {fileID: 11400000, guid: f734ab36b8e1fcc4d8bd5fa1893d622a, type: 2}
+    - {fileID: 11400000, guid: fa1c5cba5386f084f91131ab1da67566, type: 2}
+    - {fileID: 11400000, guid: a0e5803e4b3cd7c4ea1fe944a9289c7c, type: 2}
+    - {fileID: 11400000, guid: e91314fab26554844ad696c6eadb25a0, type: 2}
+    - {fileID: 11400000, guid: ada8a8691d12dde42a4e3b02e87c1813, type: 2}
+    - {fileID: 11400000, guid: 2211fa4a92f590d42a621a50166b1dc1, type: 2}
+    - {fileID: 11400000, guid: 2759d369637680745871466ac7305044, type: 2}
+    - {fileID: 11400000, guid: d2b557bf6c3b2b34c84cd260818259de, type: 2}
+    - {fileID: 11400000, guid: 7db2550b807025541830e2cfa1a7fe5e, type: 2}
+    - {fileID: 11400000, guid: ce5f2b657d5db14409e901fdc28cd5a9, type: 2}
+    - {fileID: 11400000, guid: 401eb71f43823a9428e58bec849724a1, type: 2}
+    - {fileID: 11400000, guid: 9da777526bdfb5245bc10640a27556f8, type: 2}
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1
+    Spreadsheet_SortRows: 1

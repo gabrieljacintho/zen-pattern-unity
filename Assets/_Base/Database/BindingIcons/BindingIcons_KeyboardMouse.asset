@@ -1,0 +1,182 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff0f3b6bcaa4eeeb6162534abac9390, type: 3}
+  m_Name: BindingIcons_KeyboardMouse
+  m_EditorClassIdentifier: 
+  BindingIconsList:
+  - BindingPath: <Keyboard>/0
+    Icon: {fileID: 21300000, guid: f7b6f96878675e242ae3286317c9e1e5, type: 3}
+  - BindingPath: <Keyboard>/1
+    Icon: {fileID: 21300000, guid: ff1942b78b544af40ad02be7a4d30211, type: 3}
+  - BindingPath: <Keyboard>/2
+    Icon: {fileID: 21300000, guid: 8d471dee4bcf049488a2d33ad7a1d99c, type: 3}
+  - BindingPath: <Keyboard>/3
+    Icon: {fileID: 21300000, guid: 7240d91c3decf564ea87d02a69a994ae, type: 3}
+  - BindingPath: <Keyboard>/4
+    Icon: {fileID: 21300000, guid: db9db199b362c0e409453a41cfd1ae6a, type: 3}
+  - BindingPath: <Keyboard>/5
+    Icon: {fileID: 21300000, guid: 80758c6cee9e50f4bba8f66b71b5e008, type: 3}
+  - BindingPath: <Keyboard>/6
+    Icon: {fileID: 21300000, guid: 18383fda90970f047946a76402f214e0, type: 3}
+  - BindingPath: <Keyboard>/7
+    Icon: {fileID: 21300000, guid: e89c75098ca6f8b4da46942966316fbd, type: 3}
+  - BindingPath: <Keyboard>/8
+    Icon: {fileID: 21300000, guid: db08053321682654ebfc450d78d4585a, type: 3}
+  - BindingPath: <Keyboard>/9
+    Icon: {fileID: 21300000, guid: 6e8e4c2913ae8ae46b27adcbf52b1401, type: 3}
+  - BindingPath: <Keyboard>/a
+    Icon: {fileID: 21300000, guid: 7f13bf04a9a665047a9d66d10df5b270, type: 3}
+  - BindingPath: <Keyboard>/b
+    Icon: {fileID: 21300000, guid: 93f7dcd1958c60847a369de60b93b1ba, type: 3}
+  - BindingPath: <Keyboard>/c
+    Icon: {fileID: 21300000, guid: bf85250639708334fb27ced491e8f986, type: 3}
+  - BindingPath: <Keyboard>/d
+    Icon: {fileID: 21300000, guid: 44e93869271714b4084b5f7e9af187d2, type: 3}
+  - BindingPath: <Keyboard>/e
+    Icon: {fileID: 21300000, guid: 5c8ef79ba0905d4408981b8d50ce4685, type: 3}
+  - BindingPath: <Keyboard>/f
+    Icon: {fileID: 21300000, guid: fe6ab0d2cc402d74cad4e9f733b5238f, type: 3}
+  - BindingPath: <Keyboard>/g
+    Icon: {fileID: 21300000, guid: fec2750787252954a87718334a47a715, type: 3}
+  - BindingPath: <Keyboard>/h
+    Icon: {fileID: 21300000, guid: 53e44338dc1063e44982215139ef2f9e, type: 3}
+  - BindingPath: <Keyboard>/i
+    Icon: {fileID: 21300000, guid: 30dcc2dbdbf509c46b9c1d6b92f36f8a, type: 3}
+  - BindingPath: <Keyboard>/j
+    Icon: {fileID: 21300000, guid: 53053963f280558498bc207339a1310c, type: 3}
+  - BindingPath: <Keyboard>/k
+    Icon: {fileID: 21300000, guid: 797bf830e6bfcbd4a9edc61094d89ac2, type: 3}
+  - BindingPath: <Keyboard>/l
+    Icon: {fileID: 21300000, guid: 75f3d716081c40d42bb2b169be5ad6b9, type: 3}
+  - BindingPath: <Keyboard>/m
+    Icon: {fileID: 21300000, guid: 0713da54bc92802448e0d67ca0aeed81, type: 3}
+  - BindingPath: <Keyboard>/n
+    Icon: {fileID: 21300000, guid: a83a659efbda5784c9372d153e58e861, type: 3}
+  - BindingPath: <Keyboard>/o
+    Icon: {fileID: 21300000, guid: e0d824ae242ae0d40a3e071d65fd5f7a, type: 3}
+  - BindingPath: <Keyboard>/p
+    Icon: {fileID: 21300000, guid: 69153e93db12a474ba05f5e8ae56dcb7, type: 3}
+  - BindingPath: <Keyboard>/q
+    Icon: {fileID: 21300000, guid: 80e371f1b5a11ab4ebd95c620e437a0e, type: 3}
+  - BindingPath: <Keyboard>/r
+    Icon: {fileID: 21300000, guid: 5bffb2124f8e24544a227b43fa11bf26, type: 3}
+  - BindingPath: <Keyboard>/s
+    Icon: {fileID: 21300000, guid: 04ae841e59eb40a48aeddf70004f5ae6, type: 3}
+  - BindingPath: <Keyboard>/t
+    Icon: {fileID: 21300000, guid: 606e5fe1b4e7a764f869f4c554cc8e53, type: 3}
+  - BindingPath: <Keyboard>/u
+    Icon: {fileID: 21300000, guid: f63e87292cd74c2498bfae1db28a24fd, type: 3}
+  - BindingPath: <Keyboard>/v
+    Icon: {fileID: 21300000, guid: fb56460699dca37469406df1bf19574e, type: 3}
+  - BindingPath: <Keyboard>/w
+    Icon: {fileID: 21300000, guid: 25031ed6b743d2d4290c69a5be68b4b4, type: 3}
+  - BindingPath: <Keyboard>/x
+    Icon: {fileID: 21300000, guid: 7b885ddbace1e49468a124e568b981c5, type: 3}
+  - BindingPath: <Keyboard>/y
+    Icon: {fileID: 21300000, guid: 695e43e618c01db4d9c1159bd6fc0407, type: 3}
+  - BindingPath: <Keyboard>/z
+    Icon: {fileID: 0}
+  - BindingPath: <Keyboard>/f1
+    Icon: {fileID: 21300000, guid: 2bbcb664699786d4db023ddbde14fe6a, type: 3}
+  - BindingPath: <Keyboard>/f2
+    Icon: {fileID: 21300000, guid: a771868fac7475548923399af9743fef, type: 3}
+  - BindingPath: <Keyboard>/f3
+    Icon: {fileID: 21300000, guid: 6e237ea169f1f8b47b21f46c64da9283, type: 3}
+  - BindingPath: <Keyboard>/f4
+    Icon: {fileID: 21300000, guid: 7f7321e18e6187741988df9207413a40, type: 3}
+  - BindingPath: <Keyboard>/f5
+    Icon: {fileID: 21300000, guid: 35a6dc99dba1d0b41b8eaaa44a1d4492, type: 3}
+  - BindingPath: <Keyboard>/f6
+    Icon: {fileID: 21300000, guid: fcb20dbe10e6ceb448fce07a1149a4fc, type: 3}
+  - BindingPath: <Keyboard>/f7
+    Icon: {fileID: 21300000, guid: 637b1c3e51dcbf04aa50e7035a9c5844, type: 3}
+  - BindingPath: <Keyboard>/f8
+    Icon: {fileID: 21300000, guid: 8758cec3a57d79c43998a5e40dcfc152, type: 3}
+  - BindingPath: <Keyboard>/f9
+    Icon: {fileID: 21300000, guid: f404a05c387e99c4b8e6201628d6ffbc, type: 3}
+  - BindingPath: <Keyboard>/f10
+    Icon: {fileID: 21300000, guid: 330440dfe29de904f9c5699e4955ccb7, type: 3}
+  - BindingPath: <Keyboard>/f11
+    Icon: {fileID: 21300000, guid: 5c83519c13899834080942cab9d2ba29, type: 3}
+  - BindingPath: <Keyboard>/f12
+    Icon: {fileID: 21300000, guid: 01afafa2de0c04f4f801ac573cec955b, type: 3}
+  - BindingPath: <Keyboard>/escape
+    Icon: {fileID: 21300000, guid: a7adbdaac96c0d34296910564015a78d, type: 3}
+  - BindingPath: <Keyboard>/upArrow
+    Icon: {fileID: 21300000, guid: 84974ac081a4adf4697389a6544dca44, type: 3}
+  - BindingPath: <Keyboard>/leftArrow
+    Icon: {fileID: 21300000, guid: aedd23c5f9236f644b84357fa5e68ec1, type: 3}
+  - BindingPath: <Keyboard>/downArrow
+    Icon: {fileID: 21300000, guid: 3a5e1a608f02d454aba6e688a16d1b91, type: 3}
+  - BindingPath: <Keyboard>/rightArrow
+    Icon: {fileID: 21300000, guid: 48f6245b66e7c9d43b14af602f432999, type: 3}
+  - BindingPath: <Keyboard>/tab
+    Icon: {fileID: 21300000, guid: 0d7cbb58b349ab34799e614f152ec92b, type: 3}
+  - BindingPath: <Keyboard>/capsLock
+    Icon: {fileID: 21300000, guid: 03f6795b6b8431a469e98ab900cb7110, type: 3}
+  - BindingPath: <Keyboard>/shift
+    Icon: {fileID: 21300000, guid: 472746b33f32c754f8444d18d71a5b41, type: 3}
+  - BindingPath: <Keyboard>/ctrl
+    Icon: {fileID: 21300000, guid: b30d1dade65c9fb46b4b6575eb596519, type: 3}
+  - BindingPath: <Keyboard>/alt
+    Icon: {fileID: 21300000, guid: 57ce46fdce3396f43abff844f3041dca, type: 3}
+  - BindingPath: <Keyboard>/space
+    Icon: {fileID: 21300000, guid: fb8fc07da70615c4faf03c5aa30fcaae, type: 3}
+  - BindingPath: <Keyboard>/backspace
+    Icon: {fileID: 21300000, guid: 3e888b8df1539b441b488a3ece9803b7, type: 3}
+  - BindingPath: <Keyboard>/enter
+    Icon: {fileID: 21300000, guid: 1ddb9960ebf3cec42801dab9ad575527, type: 3}
+  - BindingPath: <Keyboard>/insert
+    Icon: {fileID: 21300000, guid: 2cefe471ea8236b4e89dcccfc59c2d12, type: 3}
+  - BindingPath: <Keyboard>/delete
+    Icon: {fileID: 21300000, guid: 9a4ba7e97bf8ff04592b5d29313922c5, type: 3}
+  - BindingPath: <Keyboard>/home
+    Icon: {fileID: 21300000, guid: 2fff86c7639d62d4da80c0008281e5a7, type: 3}
+  - BindingPath: <Keyboard>/end
+    Icon: {fileID: 21300000, guid: 39e7df2f734d12f41b90218ebcb06252, type: 3}
+  - BindingPath: <Keyboard>/pageUp
+    Icon: {fileID: 21300000, guid: 04b1f0feed207004690956093eb5e49d, type: 3}
+  - BindingPath: <Keyboard>/pageDown
+    Icon: {fileID: 21300000, guid: 3080730cee9671a49b4e61c421e655a1, type: 3}
+  - BindingPath: <Keyboard>/printScreen
+    Icon: {fileID: 21300000, guid: 5bea6c631e1f03141a232dba3af84e81, type: 3}
+  - BindingPath: <Keyboard>/numpadEnter
+    Icon: {fileID: 21300000, guid: ef368900bbe27d54e904d6a269c87ad9, type: 3}
+  - BindingPath: <Keyboard>/numLock
+    Icon: {fileID: 21300000, guid: f8615e6899fd57a43b491bac28384081, type: 3}
+  - BindingPath: <Keyboard>/numpadMultiply
+    Icon: {fileID: 21300000, guid: de414b0420b42b44288aac5cf88fbd3b, type: 3}
+  - BindingPath: <Keyboard>/minus
+    Icon: {fileID: 21300000, guid: 83b2dc7fb319fc54b9e5c790546f922b, type: 3}
+  - BindingPath: <Keyboard>/semicolon
+    Icon: {fileID: 21300000, guid: 2f89ed06c0c13944fa91a649a9205323, type: 3}
+  - BindingPath: <Keyboard>/leftBracket
+    Icon: {fileID: 21300000, guid: 804aaa8bee2d50a4881ca68c4089003b, type: 3}
+  - BindingPath: <Keyboard>/rightBracket
+    Icon: {fileID: 21300000, guid: f50e7ea7b5da8a246be9825400b329e0, type: 3}
+  - BindingPath: <Keyboard>/backslash
+    Icon: {fileID: 21300000, guid: d08e30d1ab94d5546adc2102628a8cea, type: 3}
+  - BindingPath: <Mouse>/leftButton
+    Icon: {fileID: 21300000, guid: b4a50b7806fd67d43ac2912f3154371f, type: 3}
+  - BindingPath: <Mouse>/rightButton
+    Icon: {fileID: 21300000, guid: 2ae1f331e045352449570a9765155dba, type: 3}
+  - BindingPath: <Mouse>/middleButton
+    Icon: {fileID: 21300000, guid: e117a14e32b7fd04abec6012e7a25468, type: 3}
+  - BindingPath: <Mouse>/scroll
+    Icon: {fileID: 21300000, guid: e117a14e32b7fd04abec6012e7a25468, type: 3}
+  - BindingPath: <Pointer>/delta
+    Icon: {fileID: 21300000, guid: 140cef8121c964c4682553679084cf00, type: 3}
+  - BindingPath: '*/{Submit}'
+    Icon: {fileID: 21300000, guid: 1ddb9960ebf3cec42801dab9ad575527, type: 3}
+  - BindingPath: '*/{Cancel}'
+    Icon: {fileID: 21300000, guid: a7adbdaac96c0d34296910564015a78d, type: 3}
+  DefaultIcon: {fileID: 0}

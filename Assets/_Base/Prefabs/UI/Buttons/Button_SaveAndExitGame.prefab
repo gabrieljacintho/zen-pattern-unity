@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7151883125046838869
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3474256190377593002, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190377593002, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190377593002, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190377593002, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190377593002, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190377593002, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190377593003, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_text
+      value: Save and Exit Game
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190377593003, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291218, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291218, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291218, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291218, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291218, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.05999756
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291218, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -150
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291218, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291218, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291218, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291221, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_Name
+      value: Button_SaveAndExitGame
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291228, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291228, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291228, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 7025004325181726973}
+    - target: {fileID: 3474256190572291228, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291228, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: InvokeAllEvents
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291228, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: FireRingStudio.EventsInvoker, FireRingStudio
+      objectReference: {fileID: 0}
+    - target: {fileID: 3474256190572291228, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8628200557020351746, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      propertyPath: mTerm
+      value: SaveAndExitGame
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3474256190572291221, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7025004325181726973}
+    - targetCorrespondingSourceObject: {fileID: 3474256190572291221, guid: 8afd38d2258c97a4ba0637c16796a40a,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3716203314895431453}
+  m_SourcePrefab: {fileID: 100100000, guid: 8afd38d2258c97a4ba0637c16796a40a, type: 3}
+--- !u!1 &6014449920759849664 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3474256190572291221, guid: 8afd38d2258c97a4ba0637c16796a40a,
+    type: 3}
+  m_PrefabInstance: {fileID: 7151883125046838869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7025004325181726973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014449920759849664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f695c0a067b0440889c6cffbcaccc0bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _events:
+  - Key: 
+    Value:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 0997c10b268bd254189fabc8a5c656bc, type: 2}
+          m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.VoidEvent, UnityAtoms.UnityAtomsBaseAtoms.Runtime
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Key: 
+    Value:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3716203314895431453}
+          m_TargetAssemblyTypeName: FireRingStudio.Save.SaveFunctions, FireRingStudio
+          m_MethodName: Save
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: game
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Key: 
+    Value:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 11400000, guid: 4941f20773c507246a7fe81c29c78b80, type: 2}
+          m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.VoidEvent, UnityAtoms.UnityAtomsBaseAtoms.Runtime
+          m_MethodName: Raise
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  _frameInterval: 1
+--- !u!114 &3716203314895431453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6014449920759849664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6989130e4ba718a47b369179d78a833d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

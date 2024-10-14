@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8841295541368795228
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4367355300530850396, guid: 416bf42e05dcf8f4ebcff702ea3923cd,
+        type: 3}
+      propertyPath: m_Name
+      value: Switcher_Language
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716384468148183993, guid: 416bf42e05dcf8f4ebcff702ea3923cd,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716384468148183993, guid: 416bf42e05dcf8f4ebcff702ea3923cd,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716384468148183993, guid: 416bf42e05dcf8f4ebcff702ea3923cd,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716384468148183993, guid: 416bf42e05dcf8f4ebcff702ea3923cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716384468148183993, guid: 416bf42e05dcf8f4ebcff702ea3923cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716384468148183993, guid: 416bf42e05dcf8f4ebcff702ea3923cd,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 416bf42e05dcf8f4ebcff702ea3923cd, type: 3}
+--- !u!114 &1395958194804869511 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7633011921228921307, guid: 416bf42e05dcf8f4ebcff702ea3923cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 8841295541368795228}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5055679749004179968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20016e5034baee843b32acd679220c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4340992874055576909 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5083677185980341521, guid: 416bf42e05dcf8f4ebcff702ea3923cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 8841295541368795228}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &5055679749004179968 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4367355300530850396, guid: 416bf42e05dcf8f4ebcff702ea3923cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 8841295541368795228}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &7225605062589678961
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5055679749004179968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ddbea43a1e3460cb42ee8e23dd9e789, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  input: {fileID: 3165936106262814383, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
+  requiredSelection: {fileID: 0}
+  continuous: 0
+  speed: 1
+--- !u!114 &7854450203217083016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5055679749004179968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c52e1790c3714b8d8a76829582336b6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _currentIndex: 0
+  _previousButton: {fileID: 4340992874055576909}
+  _nextButton: {fileID: 5512615165604186094}
+  _wrap: 1
+  OnValueChanged:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1395958194804869511}
+        m_TargetAssemblyTypeName: FireRingStudio.Audio.PooledStudioEventEmitter,
+          FireRingStudio
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _autoApplyChanges: 1
+--- !u!114 &5512615165604186094 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3905229158532052914, guid: 416bf42e05dcf8f4ebcff702ea3923cd,
+    type: 3}
+  m_PrefabInstance: {fileID: 8841295541368795228}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

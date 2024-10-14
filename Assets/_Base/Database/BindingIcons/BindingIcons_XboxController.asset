@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ff0f3b6bcaa4eeeb6162534abac9390, type: 3}
+  m_Name: BindingIcons_XboxController
+  m_EditorClassIdentifier: 
+  BindingIconsList:
+  - BindingPath: <Gamepad>/buttonNorth
+    Icon: {fileID: 21300000, guid: d7df8cdcc1721e94797ce9ec45dda8b2, type: 3}
+  - BindingPath: <Gamepad>/buttonWest
+    Icon: {fileID: 21300000, guid: d59b519e3116a5748ad2ad51bfb331bd, type: 3}
+  - BindingPath: <Gamepad>/buttonSouth
+    Icon: {fileID: 21300000, guid: e00e16c0697ae9446b55fc8644e0ddce, type: 3}
+  - BindingPath: <Gamepad>/buttonEast
+    Icon: {fileID: 21300000, guid: 3e06bf4c46226af41a81d17419d0410f, type: 3}
+  - BindingPath: <Gamepad>/dpad
+    Icon: {fileID: 21300000, guid: 6cb88fcaa2ab756498ac823e4ccd5a7a, type: 3}
+  - BindingPath: <Gamepad>/dpad/up
+    Icon: {fileID: 21300000, guid: 784a978e16a6bc9439f1213606f9fea6, type: 3}
+  - BindingPath: <Gamepad>/dpad/left
+    Icon: {fileID: 21300000, guid: fad60bdec4227d045baeb376a24ec7b8, type: 3}
+  - BindingPath: <Gamepad>/dpad/down
+    Icon: {fileID: 21300000, guid: 649898e390268e44a8aace1eeb57c95f, type: 3}
+  - BindingPath: <Gamepad>/dpad/right
+    Icon: {fileID: 21300000, guid: 717c76863def01843a106cca3fbbfd1e, type: 3}
+  - BindingPath: <Gamepad>/leftShoulder
+    Icon: {fileID: 21300000, guid: ba9b4b6e5abdc1c48841be36dff6843a, type: 3}
+  - BindingPath: <Gamepad>/rightShoulder
+    Icon: {fileID: 21300000, guid: d4ed197a054fc47438276cd51bbaf02f, type: 3}
+  - BindingPath: <Gamepad>/leftTrigger
+    Icon: {fileID: 21300000, guid: 8d9d40790d277a640a2818045be9b9cb, type: 3}
+  - BindingPath: <Gamepad>/rightTrigger
+    Icon: {fileID: 21300000, guid: 71219e095785b1a47925ff80172a2f04, type: 3}
+  - BindingPath: <Gamepad>/leftStick
+    Icon: {fileID: 21300000, guid: 0487bf18b13c5bb4e9d27bfbee4e3c45, type: 3}
+  - BindingPath: <Gamepad>/leftStickPress
+    Icon: {fileID: 21300000, guid: 75a4b803dfbb6144790c4a12631d09a1, type: 3}
+  - BindingPath: <Gamepad>/rightStick
+    Icon: {fileID: 21300000, guid: 610ae46a419049e47b06800344c651ad, type: 3}
+  - BindingPath: <Gamepad>/rightStickPress
+    Icon: {fileID: 21300000, guid: cb1e7dbfb3016b441ab4d439cf98ab58, type: 3}
+  - BindingPath: <Gamepad>/select
+    Icon: {fileID: 21300000, guid: f262ad05e7b39fd458e3be833312eb87, type: 3}
+  - BindingPath: <Gamepad>/start
+    Icon: {fileID: 21300000, guid: 6cf47898f6836e743b8543412eea8b4f, type: 3}
+  - BindingPath: <Gamepad>/leftShoulder
+    Icon: {fileID: 21300000, guid: ba9b4b6e5abdc1c48841be36dff6843a, type: 3}
+  - BindingPath: <Gamepad>/rightShoulder
+    Icon: {fileID: 21300000, guid: d4ed197a054fc47438276cd51bbaf02f, type: 3}
+  - BindingPath: '*/{Submit}'
+    Icon: {fileID: 21300000, guid: e00e16c0697ae9446b55fc8644e0ddce, type: 3}
+  - BindingPath: '*/{Cancel}'
+    Icon: {fileID: 21300000, guid: 3e06bf4c46226af41a81d17419d0410f, type: 3}
+  DefaultIcon: {fileID: 0}
