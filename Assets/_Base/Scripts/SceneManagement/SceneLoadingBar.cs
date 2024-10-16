@@ -1,8 +1,7 @@
-﻿using FireRingStudio.SceneManagement;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-namespace FireRingStudio.UI
+namespace FireRingStudio.SceneManagement
 {
     [RequireComponent(typeof(Image))]
     public class SceneLoadingBar : MonoBehaviour

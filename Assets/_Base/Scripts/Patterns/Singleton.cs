@@ -5,6 +5,8 @@ namespace FireRingStudio.Patterns
 {
     public abstract class Singleton<T> : MonoBehaviour where T : MonoBehaviour
     {
+        protected static T s_instance;
+
         public static T Instance
         {
             get
@@ -17,8 +19,7 @@ namespace FireRingStudio.Patterns
                 return s_instance;
             }
         }
-
-        protected static T s_instance;
+        public static bool HasInstance => s_instance != null;
 
 
         protected virtual void Awake()
