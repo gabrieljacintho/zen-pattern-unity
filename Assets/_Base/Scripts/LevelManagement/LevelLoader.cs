@@ -41,14 +41,6 @@ namespace FireRingStudio.LevelManagement
             {
                 Load();
             }
-        }
-
-        private void Update()
-        {
-            if (!LevelManager.HasInstance)
-            {
-                return;
-            }
 
             Level selectedLevel = GetLevel();
             Level activeLevel = LevelManager.Instance.FindActiveLevel();
@@ -101,12 +93,12 @@ namespace FireRingStudio.LevelManagement
                     return LevelManager.Instance.FindCurrentLevel();
 
                 case LevelSelectionMode.Next:
-                    Level level = LevelManager.Instance.FindCurrentLevel();
+                    Level level = LevelManager.Instance.FindActiveLevel();
                     int index = LevelManager.Instance.Levels.IndexOf(level);
                     return LevelManager.Instance.GetLevelAt(++index);
 
                 case LevelSelectionMode.Previous:
-                    level = LevelManager.Instance.FindCurrentLevel();
+                    level = LevelManager.Instance.FindActiveLevel();
                     index = LevelManager.Instance.Levels.IndexOf(level);
                     return LevelManager.Instance.GetLevelAt(--index);
 

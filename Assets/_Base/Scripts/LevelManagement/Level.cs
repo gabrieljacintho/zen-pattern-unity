@@ -1,18 +1,15 @@
 ﻿using FireRingStudio.SaveSystem;
 using Sirenix.OdinInspector;
 using System;
-using UnityEngine;
-using UnityEngine.SceneManagement;
 
 namespace FireRingStudio.LevelManagement
 {
     [Serializable]
-    public class Level
+    public abstract class Level
     {
         public string Id;
-        public string SceneName;
 
-        [ShowInInspector, ReadOnly] private bool _completed;
+        [ShowInInspector, ReadOnly, PropertyOrder(1)] private bool _completed;
         private bool _loaded;
 
         public bool Completed
@@ -29,21 +26,17 @@ namespace FireRingStudio.LevelManagement
         }
 
 
-        public void Load(LoadSceneMode mode = LoadSceneMode.Single)
-        {
-            SceneManager.LoadScene(SceneName, mode);
-        }
+        public abstract void Load();
 
-        public AsyncOperation LoadAsync(LoadSceneMode mode = LoadSceneMode.Single)
-        {
-            return SceneManager.LoadSceneAsync(SceneName, mode);
-        }
+        public abstract void Unload();
 
-        public void Complete()
+        public abstract bool IsLoaded();
+
+        public virtual void Complete()
         {
             _completed = true;
             Save();
-            Debug.Log("Level completed: \"" + SceneName + "\"");
+            Debug.Log("Level completed: \"" + Id + "\"");
         }
 
         public void ResetLevel()

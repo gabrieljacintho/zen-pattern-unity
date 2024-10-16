@@ -1,35 +1,27 @@
 ﻿using FireRingStudio.Patterns;
 using FireRingStudio.SaveSystem;
+using log4net.Core;
 using Sirenix.OdinInspector;
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.SceneManagement;
 
 namespace FireRingStudio.LevelManagement
 {
-    public class LevelManager : Singleton<LevelManager>
+    public abstract class LevelManager : Singleton<LevelManager>
     {
-        [SerializeField] private List<Level> _levels;
-        [SerializeField] private LoadSceneMode _loadMode = LoadSceneMode.Single;
-        [SerializeField] private bool _asyncLoad;
-        [SerializeField] private bool _loop;
-        [SerializeField] private bool _loadNextLevelOnComplete;
-        [SerializeField] private bool _loadLastLevelOnAwake;
-        [SerializeField] private string _saveKey = "level";
+        [SerializeField] protected bool _loop;
+        [SerializeField] protected bool _loadNextLevelOnComplete;
+        [SerializeField] protected bool _loadLastLevelOnAwake;
+        [SerializeField] protected string _saveKey = "level";
 
-        private Coroutine _loadLevelCoroutine;
-        private AsyncOperation _unloadAsyncOperation;
-        private AsyncOperation _loadAsyncOperation;
-        private string _lastLevelId;
-        private string _lastLevelSceneName;
+        protected string _lastLevelId;
 
-        public List<Level> Levels => _levels;
-        public AsyncOperation LoadAsyncOperation => _loadAsyncOperation;
+        public abstract List<Level> Levels { get; }
 
         [Space]
+        public UnityEvent<Level> OnLevelLoad;
         public UnityEvent<Level> OnLevelComplete;
         public UnityEvent OnAllLevelsComplete;
 
@@ -45,127 +37,111 @@ namespace FireRingStudio.LevelManagement
             }
         }
 
-        [Button]
         public void LoadLastLevel()
         {
             Level level = GetLastLevel();
-            if (level == null)
+            LoadLevel(level);
+        }
+
+        [Button]
+        public void LoadNextLevel()
+        {
+            Level activeLevel = FindActiveLevel();
+            if (activeLevel == null || (!_loop && activeLevel == Levels[^1]))
             {
-                Debug.LogError("Last level not found!", this);
                 return;
             }
 
-            LoadLevel(level);
+            int index = Levels.IndexOf(activeLevel) + 1;
+            index %= Levels.Count;
+
+            LoadLevel(index);
         }
+
+        #region Load Level
 
         public void LoadLevel(int index)
         {
             Level level = GetLevelAt(index);
-            StartCoroutine(LoadLevelRoutine(level));
+            LoadLevel(level);
         }
 
         public void LoadLevel(string id)
         {
             Level level = FindLevelWithId(id);
-            StartCoroutine(LoadLevelRoutine(level));
+            LoadLevel(level);
         }
 
-        public void LoadLevel(Level level)
+        public virtual void LoadLevel(Level level)
         {
-            if (_loadLevelCoroutine != null)
-            {
-                StopCoroutine(_loadLevelCoroutine);
-            }
-
-            _loadLevelCoroutine = StartCoroutine(LoadLevelRoutine(level));
-        }
-
-        private IEnumerator LoadLevelRoutine(Level level)
-        {
-            if (_loadMode == LoadSceneMode.Additive && !string.IsNullOrEmpty(_lastLevelSceneName))
-            {
-                _unloadAsyncOperation = SceneManager.UnloadSceneAsync(_lastLevelSceneName);
-                _lastLevelSceneName = null;
-            }
-
-            if (_unloadAsyncOperation != null)
-            {
-                yield return _unloadAsyncOperation;
-            }
-
-            if (_asyncLoad)
-            {
-                _loadAsyncOperation = level.LoadAsync(_loadMode);
-            }
-            else
-            {
-                level.Load(_loadMode);
-            }
-
+            level.Load();
             _lastLevelId = level.Id;
-            _lastLevelSceneName = level.SceneName;
-            _loadLevelCoroutine = null;
-
             Save();
+
+            OnLevelLoad?.Invoke(level);
         }
+
+        #endregion
 
         [Button]
         public void CompleteActiveLevel()
         {
-            Level level = FindActiveLevel(x => !x.Completed);
-            if (level == null)
-            {
-                return;
-            }
-
+            Level level = FindActiveLevel();
             level.Complete();
 
             OnLevelComplete?.Invoke(level);
 
-            if (level == _levels[^1])
+            if (level == Levels[^1])
             {
                 OnAllLevelsComplete?.Invoke();
             }
 
             if (_loadNextLevelOnComplete)
             {
-                LoadLastLevel();
+                LoadNextLevel();
             }
         }
 
         public void ResetAllLevels()
         {
-            foreach (Level level in _levels)
+            foreach (Level level in Levels)
             {
                 level.ResetLevel();
             }
         }
 
+        #region Level Query Functions
+
+        public Level FindActiveLevel(Predicate<Level> match = default)
+        {
+            Level activeLevel = Levels.Find(x => x.Id == _lastLevelId && (match == null || match(x)));
+            if (activeLevel == null)
+            {
+                activeLevel = Levels.Find(x => x.IsLoaded() && (match == null || match(x)));
+            }
+
+            return activeLevel;
+        }
+
         public Level FindCurrentLevel()
         {
-            Level level = _levels.Find(x => !x.Completed);
+            Level level = Levels.Find(x => !x.Completed);
             if (level == null)
             {
-                level = _levels[^1];
+                level = Levels[^1];
             }
 
             return level;
         }
 
-        public Level FindActiveLevel(Predicate<Level> match = default)
-        {
-            string sceneName = string.IsNullOrEmpty(_lastLevelSceneName) ? SceneManager.GetActiveScene().name : _lastLevelSceneName;
-            return _levels.Find(x => x.SceneName == sceneName && (match == null || match(x)));
-        }
-
         public Level FindLevelWithId(string id)
         {
-            return _levels.Find(x => x.Id == id);
+            return Levels.Find(x => x.Id == id);
         }
 
         public Level GetLastLevel()
         {
-            if (IsAllLevelsCompleted() && !string.IsNullOrEmpty(_lastLevelId))
+            if (!string.IsNullOrEmpty(_lastLevelId))
             {
                 return FindLevelWithId(_lastLevelId);
             }
@@ -180,14 +156,34 @@ namespace FireRingStudio.LevelManagement
             if (_loop)
             {
                 index = Mathf.Max(index, 0);
-                index %= _levels.Count;
+                index %= Levels.Count;
             }
             else
             {
-                index = Mathf.Clamp(index, 0, _levels.Count - 1);
+                index = Mathf.Clamp(index, 0, Levels.Count - 1);
             }
 
-            return _levels[index];
+            return Levels[index];
+        }
+
+        public int GetActiveLevelIndex()
+        {
+            int levelIndex = 0;
+            Level level = FindActiveLevel();
+            if (level != null)
+            {
+                levelIndex = Levels.IndexOf(level);
+            }
+
+            return levelIndex;
+        }
+
+        #endregion
+
+        public void SetLastLevel(int index)
+        {
+            _lastLevelId = Levels[index].Id;
+            Save();
         }
 
         public bool IsUnlocked(Level level)
@@ -199,24 +195,28 @@ namespace FireRingStudio.LevelManagement
             return targetIndex <= currentIndex;
         }
 
-        public bool IsAllLevelsCompleted()
+        public bool AreAllLevelsCompleted()
         {
-            return !_levels.Exists(x => !x.Completed);
+            return !Levels.Exists(x => !x.Completed);
         }
 
-        private void Load()
+        #region Load/Save
+
+        protected void Load()
         {
             _lastLevelId = SaveManager.GetString(_saveKey);
 
-            foreach (Level level in _levels)
+            foreach (Level level in Levels)
             {
                 level.LoadSave();
             }
         }
 
-        private void Save()
+        protected void Save()
         {
             SaveManager.SetString(_saveKey, _lastLevelId);
         }
+
+        #endregion
     }
 }

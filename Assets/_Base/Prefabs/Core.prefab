@@ -215,10 +215,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6848296993817205307}
-  - component: {fileID: 813201182614474678}
+  - component: {fileID: 8799199108641919869}
   - component: {fileID: 4943643276298813527}
+  - component: {fileID: 6386084629970561513}
   - component: {fileID: 1758578060321586505}
-  - component: {fileID: 4777095068996266592}
   m_Layer: 0
   m_Name: Manager_Level
   m_TagString: Untagged
@@ -241,7 +241,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1406449275745763235}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &813201182614474678
+--- !u!114 &8799199108641919869
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -250,26 +250,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 3586936344421847958}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c6958406e8f8eba4b96ae88df2e449eb, type: 3}
+  m_Script: {fileID: 11500000, guid: 6ffeece0b270cdd4481a16ac17c250ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _levels:
-  - Id: level-01
-    SceneName: Level_01
-  - Id: level-02
-    SceneName: Level_02
-  _loadMode: 1
-  _asyncLoad: 0
   _loop: 0
   _loadNextLevelOnComplete: 0
   _loadLastLevelOnAwake: 0
   _saveKey: level
+  OnLevelLoad:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 8161fb2d48949bb4bbd719972b0d676c, type: 2}
+        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.VoidEvent, UnityAtoms.UnityAtomsBaseAtoms.Runtime
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnLevelComplete:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 4777095068996266592}
-        m_TargetAssemblyTypeName: FireRingStudio.Timer, FireRingStudio
-        m_MethodName: StartTimer
+      - m_Target: {fileID: 11400000, guid: 1839922957f316b49baa659e69e2edf4, type: 2}
+        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.VoidEvent, UnityAtoms.UnityAtomsBaseAtoms.Runtime
+        m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -282,18 +290,30 @@ MonoBehaviour:
   OnAllLevelsComplete:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 5eef993d86987494293589143ddc1584, type: 2}
-        m_TargetAssemblyTypeName: UnityAtoms.AtomEvent`1[[System.String, mscorlib
+      - m_Target: {fileID: 11400000, guid: b09743697b9d36e4282a9c46abfd5f28, type: 2}
+        m_TargetAssemblyTypeName: UnityAtoms.BaseAtoms.VoidEvent, UnityAtoms.UnityAtomsBaseAtoms.Runtime
         m_MethodName: Raise
-        m_Mode: 5
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: end
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+  _levels:
+  - Id: level-01
+    Prefab: {fileID: 6761316785307979819, guid: aeed81721228b054fbe5f838832b521a, type: 3}
+  - Id: level-02
+    Prefab: {fileID: 6761316785307979819, guid: 2136ef9c59c69974b8d07f9cdbbec495, type: 3}
+  - Id: level-03
+    Prefab: {fileID: 6761316785307979819, guid: 7036a375d10e2424e8741d5c597887e2, type: 3}
+  - Id: level-04
+    Prefab: {fileID: 6761316785307979819, guid: a133414eeace41449ba5894ab945fa07, type: 3}
+  - Id: level-05
+    Prefab: {fileID: 6761316785307979819, guid: 37e545f88ba08404ba3e14a255e91616, type: 3}
+  _parent: {fileID: 0}
 --- !u!114 &4943643276298813527
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -310,7 +330,7 @@ MonoBehaviour:
   _unityEventResponse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 813201182614474678}
+      - m_Target: {fileID: 8799199108641919869}
         m_TargetAssemblyTypeName: FireRingStudio.LevelManagement.LevelManager, FireRingStudio
         m_MethodName: LoadLastLevel
         m_Mode: 1
@@ -334,6 +354,44 @@ MonoBehaviour:
     _list: {fileID: 0}
     _collectionInstancer: {fileID: 0}
     _listInstancer: {fileID: 0}
+--- !u!114 &6386084629970561513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3586936344421847958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050ff37b5550f4b7e9bdf8b985aff484, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _developerDescription: 
+  _unityEventResponse:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8799199108641919869}
+        m_TargetAssemblyTypeName: FireRingStudio.LevelManagement.LevelManager, FireRingStudio
+        m_MethodName: LoadLevel
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  _actionResponses: []
+  _conditions: []
+  _operator: 0
+  _replayEventBufferOnRegister: 1
+  _eventReference:
+    _usage: 0
+    _event: {fileID: 11400000, guid: f57dd27d8f8e7c349a646124364bc533, type: 2}
+    _eventInstancer: {fileID: 0}
+    _variable: {fileID: 0}
+    _variableInstancer: {fileID: 0}
 --- !u!114 &1758578060321586505
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,7 +408,7 @@ MonoBehaviour:
   _unityEventResponse:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 813201182614474678}
+      - m_Target: {fileID: 8799199108641919869}
         m_TargetAssemblyTypeName: FireRingStudio.LevelManagement.LevelManager, FireRingStudio
         m_MethodName: CompleteActiveLevel
         m_Mode: 1
@@ -374,55 +432,6 @@ MonoBehaviour:
     _list: {fileID: 0}
     _collectionInstancer: {fileID: 0}
     _listInstancer: {fileID: 0}
---- !u!114 &4777095068996266592
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3586936344421847958}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 772ff3634a600c641bf317eb835d9a3c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _saveKey: 
-  _timeMeasures: 0
-  _timeRange:
-    _variableType: 0
-    _minValue: 2
-    _maxValue: 2
-    _minValueVariable: {fileID: 0}
-    _maxValueVariable: {fileID: 0}
-    _valueRangeVariable: {fileID: 0}
-  _useUnscaledDeltaTime: 0
-  _loop: 0
-  _onlyInGame: 0
-  _canRestartBeforeStop: 1
-  _replayEnd: 1
-  _startOnEnable: 0
-  _startOnGameStart: 0
-  OnStart:
-    m_PersistentCalls:
-      m_Calls: []
-  OnStop:
-    m_PersistentCalls:
-      m_Calls: []
-  OnEnd:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 813201182614474678}
-        m_TargetAssemblyTypeName: FireRingStudio.LevelManagement.LevelManager, FireRingStudio
-        m_MethodName: LoadLastLevel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &6576990959864338374
 GameObject:
   m_ObjectHideFlags: 0
