@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class SetImagesSprite : MonoBehaviour
 {
-    [InfoBox("Images count != Sprites count!")]
     [SerializeField] private List<Image> _images;
     [SerializeField] private List<Sprite> _sprites;
 
