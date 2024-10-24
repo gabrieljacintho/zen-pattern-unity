@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 6824982678058476799}
   - component: {fileID: 6127805494736130609}
   - component: {fileID: 7031109628092231013}
+  - component: {fileID: 4042708889643412526}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -132,6 +133,48 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4042708889643412526}
+        m_TargetAssemblyTypeName: FireRingStudio.FMODIntegration.FMODAudioSource,
+          FireRingStudio
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &4042708889643412526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6894712693909497546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20016e5034baee843b32acd679220c8a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _audioSourceReference: {fileID: 0}
+  _audioReference:
+    Guid:
+      Data1: -935770692
+      Data2: 1098813434
+      Data3: 1481361294
+      Data4: 1128827661
+    Path: event:/SFX/ChangeLevel
+  _attach: 0
+  _allowFadeout: 1
+  _stopEvent: 0
+  _releaseToPoolOnStop: 1
+  _selfReleaseToPool: 0
+  _noiseRadius: 0
+  _playOnlyIfIsNotPlaying: 0
+  _playOnEnable: 0
+  _stopOnDisable: 0
 --- !u!1 &6952970467691037829
 GameObject:
   m_ObjectHideFlags: 0

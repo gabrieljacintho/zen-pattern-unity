@@ -198,6 +198,7 @@ Transform:
   - {fileID: 4750964820833257881}
   - {fileID: 4151850072308516586}
   - {fileID: 4208718270790908183}
+  - {fileID: 5176108122553685516}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3676407682570127894
@@ -563,6 +564,68 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   _vcaName: General
+--- !u!1 &5976024907481284786
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5176108122553685516}
+  - component: {fileID: 7043987678886396771}
+  m_Layer: 0
+  m_Name: Music
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5176108122553685516
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5976024907481284786}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3548968851824581060}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7043987678886396771
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5976024907481284786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -978309330
+      Data2: 1291833550
+      Data3: 274554506
+      Data4: -221646166
+    Path: event:/Music/Music
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &7036484112896849326
 GameObject:
   m_ObjectHideFlags: 0
@@ -834,9 +897,9 @@ MonoBehaviour:
   - Id: level-03
     Prefab: {fileID: 9140047463082855604, guid: d93cffe5da10e7a43ac2f31d89aa85ad, type: 3}
   - Id: level-04
-    Prefab: {fileID: 9140047463082855604, guid: 0dcf03f54631f274194fbf5e6fa517d1, type: 3}
-  - Id: level-05
     Prefab: {fileID: 9140047463082855604, guid: 8ce80615bd8122f46aa93c8e6395dd72, type: 3}
+  - Id: level-05
+    Prefab: {fileID: 9140047463082855604, guid: 61ebbdcd56fe43742955b8a3e0b70be1, type: 3}
   _parent: {fileID: 0}
 --- !u!114 &415005064304709137
 MonoBehaviour:
