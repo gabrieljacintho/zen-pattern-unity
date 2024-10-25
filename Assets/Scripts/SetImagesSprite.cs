@@ -9,11 +9,6 @@ public class SetImagesSprite : MonoBehaviour
     [SerializeField] private List<Sprite> _sprites;
 
 
-    private void Start()
-    {
-        SetSprites();
-    }
-
     [Button]
     public void SetSprites()
     {
