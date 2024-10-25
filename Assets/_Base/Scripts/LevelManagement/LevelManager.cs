@@ -1,6 +1,5 @@
 ﻿using FireRingStudio.Patterns;
 using FireRingStudio.SaveSystem;
-using log4net.Core;
 using Sirenix.OdinInspector;
 using System;
 using System.Collections.Generic;
