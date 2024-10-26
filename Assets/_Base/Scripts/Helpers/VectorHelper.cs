@@ -4,15 +4,20 @@ namespace FireRingStudio.Helpers
 {
     public class VectorHelper : MonoBehaviour
     {
-        public static Vector3 Random(Vector3 range)
+        public static Vector3 Random(Vector3 min, Vector3 max)
         {
             Vector3 value = new Vector3(
-                UnityEngine.Random.Range(-range.x, range.x),
-                UnityEngine.Random.Range(-range.y, range.y),
-                UnityEngine.Random.Range(-range.z, range.z)
+                UnityEngine.Random.Range(min.x, max.x),
+                UnityEngine.Random.Range(min.y, max.y),
+                UnityEngine.Random.Range(min.z, max.z)
             );
-            
+
             return value;
+        }
+
+        public static Vector3 Random(Vector3 range)
+        {
+            return Random(-range, range);
         }
 
         public static Vector3 Distance(Vector3 a, Vector3 b)

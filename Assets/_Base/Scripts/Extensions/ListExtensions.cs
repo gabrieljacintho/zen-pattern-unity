@@ -48,6 +48,16 @@ namespace FireRingStudio.Extensions
             }
         }
 
+        public static T GetRandom<T>(this List<T> list)
+        {
+            if (list.Count == 0)
+            {
+                return default;
+            }
+
+            return list[UnityEngine.Random.Range(0, list.Count)];
+        }
+
         #region Dictionary
 
         public static bool TryGetValue<TKey, TValue>(this List<KeyValue<TKey, TValue>> list, TKey key, out TValue value)
