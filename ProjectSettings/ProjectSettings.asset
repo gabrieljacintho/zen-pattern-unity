@@ -14,7 +14,7 @@ PlayerSettings:
   accelerometerFrequency: 60
   companyName: Gabriel Bertasso
   productName: Zen Pattern
-  defaultCursor: {fileID: 0}
+  defaultCursor: {fileID: 2800000, guid: 452855d67fbaa3c46a5e9abd49cdaa60, type: 3}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.003921569, g: 0.84313726, b: 0.8352941, a: 1}
   m_ShowUnitySplashScreen: 1
@@ -141,7 +141,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 0.1.0
+  bundleVersion: 0.1.1
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
